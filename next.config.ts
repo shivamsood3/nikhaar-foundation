@@ -35,24 +35,10 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-  // Consolidate all crawl and link signals on the .org canonical.
-  // Vercel resolves these at the edge, so the origin function is never invoked.
-  async redirects() {
-    return [
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "nikhaarfoundation.com" }],
-        destination: "https://www.nikhaarfoundation.org/:path*",
-        permanent: true,
-      },
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.nikhaarfoundation.com" }],
-        destination: "https://www.nikhaarfoundation.org/:path*",
-        permanent: true,
-      },
-    ];
-  },
 };
+
+// The .com -> .org 308 redirect is set at the Vercel domain level so it
+// runs at the CDN edge, before any function invocation. See project domain
+// configuration for nikhaarfoundation.com and www.nikhaarfoundation.com.
 
 export default nextConfig;
