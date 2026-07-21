@@ -3,11 +3,14 @@ import Image from "next/image";
 import { Arrow, Button, Container, Eyebrow, PageHero, SectionHeading } from "@/components/ui";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Impact",
+import { breadcrumbLd, JsonLd, pageMeta } from "@/lib/seo";
+
+export const metadata: Metadata = pageMeta({
+  title: "Impact | 3,000+ people with water at their doorstep in Delhi",
   description:
-    "What Nikhaar Foundation has actually delivered, how we count it, and what we deliberately do not claim.",
-};
+    "Case study of the community water pump Nikhaar Foundation funded and installed at Indira Gandhi Camp, Kasturba Nagar, plus the reporting rules we hold ourselves to as a small, high-impact NGO in Delhi.",
+  path: "/impact",
+});
 
 const measures = [
   {
@@ -168,6 +171,13 @@ export default function ImpactPage() {
           </div>
         </Container>
       </section>
+
+      <JsonLd
+        data={breadcrumbLd([
+          { name: "Home", path: "/" },
+          { name: "Impact", path: "/impact" },
+        ])}
+      />
     </>
   );
 }

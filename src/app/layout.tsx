@@ -4,6 +4,7 @@ import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { site } from "@/lib/site";
+import { JsonLd, keywords, organizationLd, websiteLd } from "@/lib/seo";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -18,39 +19,53 @@ const newsreader = Newsreader({
   weight: ["300", "400", "500"],
 });
 
+const defaultTitle = `${site.name} | 80G and CSR-1 registered NGO in Delhi`;
+const defaultDescription =
+  "Nikhaar Foundation is a 12A, 80G and CSR-1 registered Indian nonprofit working on water conservation, clean air, and children's welfare in Delhi. Individual donations are tax deductible under Section 80G; companies can route CSR spending under CSR-1 registration CSR00107287.";
+
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: {
-    default: `${site.name} | ${site.tagline}`,
-    template: `%s | ${site.name}`,
+  title: { default: defaultTitle, template: `%s | ${site.name}` },
+  description: defaultDescription,
+  applicationName: site.name,
+  keywords,
+  authors: [{ name: "Shivam Sood", url: site.url }],
+  creator: "Shivam Sood",
+  publisher: site.name,
+  category: "Nonprofit",
+  alternates: {
+    canonical: site.url,
+    types: { "application/rss+xml": `${site.url}/sitemap.xml` },
   },
-  description: site.description,
   openGraph: {
-    title: site.name,
-    description: site.description,
+    title: defaultTitle,
+    description: defaultDescription,
     url: site.url,
     siteName: site.name,
     locale: "en_IN",
     type: "website",
+    images: [
+      { url: "/opengraph-image", width: 1200, height: 630, alt: site.name },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: site.name,
-    description: site.description,
+    title: defaultTitle,
+    description: defaultDescription,
+    images: ["/opengraph-image"],
   },
-  robots: { index: true, follow: true },
-};
-
-const orgJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "NGO",
-  name: site.name,
-  url: site.url,
-  email: site.email,
-  description: site.description,
-  sameAs: [site.instagram],
-  areaServed: { "@type": "City", name: "Delhi" },
-  address: { "@type": "PostalAddress", addressLocality: "Delhi", addressCountry: "IN" },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  formatDetection: { email: false, address: false, telephone: false },
 };
 
 export default function RootLayout({
@@ -60,7 +75,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="en-IN"
       className={`${inter.variable} ${newsreader.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
@@ -75,10 +90,8 @@ export default function RootLayout({
           {children}
         </main>
         <SiteFooter />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
-        />
+        <JsonLd data={organizationLd()} />
+        <JsonLd data={websiteLd()} />
       </body>
     </html>
   );

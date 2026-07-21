@@ -3,11 +3,14 @@ import { Arrow, Button, Container, Eyebrow, PageHero, SectionHeading } from "@/c
 import { DonationDetails } from "@/components/donation-details";
 import { compliance, site } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Support Our Work",
+import { breadcrumbLd, JsonLd, pageMeta } from "@/lib/seo";
+
+export const metadata: Metadata = pageMeta({
+  title: "Donate to Nikhaar Foundation | 80G tax deduction, CSR-1 partnerships",
   description:
-    "Donate to Nikhaar Foundation with 80G tax benefit, or route your company’s CSR spending to our water, clean air, and children’s programmes under CSR-1.",
-};
+    "Donate to Nikhaar Foundation by bank transfer or UPI and claim your Section 80G tax deduction. Companies can route mandated CSR spending to our water, clean air, and children's programmes under CSR-1 registration CSR00107287.",
+  path: "/support",
+});
 
 /**
  * Set `amount` on any of these once the costings are confirmed, for example
@@ -217,6 +220,12 @@ export default function SupportPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <JsonLd
+        data={breadcrumbLd([
+          { name: "Home", path: "/" },
+          { name: "Support our work", path: "/support" },
+        ])}
       />
     </>
   );

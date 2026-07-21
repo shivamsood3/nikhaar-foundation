@@ -20,13 +20,20 @@ const columns = [
       { href: "/contact", label: "Contact us" },
     ],
   },
+  {
+    title: "For donors",
+    links: [
+      { href: "/donor-guide", label: "A donor's guide" },
+      { href: "/faq", label: "FAQ" },
+    ],
+  },
 ];
 
 export function SiteFooter() {
   return (
     <footer className="bg-teal-deep text-white">
       <Container className="py-16 lg:py-20">
-        <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
+        <div className="grid gap-12 lg:grid-cols-[1.3fr_0.9fr_0.9fr_0.9fr_1.1fr]">
           <div>
             <Logo tone="light" />
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-white/60">

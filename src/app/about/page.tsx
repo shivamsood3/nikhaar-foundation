@@ -2,11 +2,25 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Arrow, Button, Container, Eyebrow, PageHero, SectionHeading } from "@/components/ui";
 import { compliance, site } from "@/lib/site";
+import { breadcrumbLd, JsonLd, pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "About",
+export const metadata: Metadata = pageMeta({
+  title: "About Nikhaar Foundation | Founder, mission and governance",
   description:
-    "Nikhaar Foundation is a registered Indian nonprofit working on water, clean air, and children’s welfare in Delhi’s underserved neighbourhoods.",
+    "Nikhaar Foundation is a Delhi-based Indian NGO founded by Shivam Sood, registered under Section 12A and Section 80G of the Income Tax Act, and holding CSR-1 registration (CSR00107287) with the Ministry of Corporate Affairs.",
+  path: "/about",
+});
+
+const founderPersonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": `${site.url}/about#founder`,
+  name: "Shivam Sood",
+  jobTitle: "Founder",
+  worksFor: { "@id": `${site.url}/#organization` },
+  url: `${site.url}/about`,
+  nationality: { "@type": "Country", name: "India" },
+  sameAs: [site.instagram],
 };
 
 const principles = [
@@ -179,6 +193,14 @@ export default function AboutPage() {
           </div>
         </Container>
       </section>
+
+      <JsonLd data={founderPersonLd} />
+      <JsonLd
+        data={breadcrumbLd([
+          { name: "Home", path: "/" },
+          { name: "About", path: "/about" },
+        ])}
+      />
     </>
   );
 }

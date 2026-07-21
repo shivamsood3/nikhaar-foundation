@@ -1,7 +1,16 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Arrow, Button, Container, Eyebrow, SectionHeading } from "@/components/ui";
 import { campaigns, programs, site, stats } from "@/lib/site";
+import { breadcrumbLd, JsonLd, pageMeta } from "@/lib/seo";
+
+export const metadata: Metadata = pageMeta({
+  title: `${site.name} | 80G and CSR-1 registered NGO in Delhi`,
+  description:
+    "Nikhaar Foundation is a 12A, 80G and CSR-1 registered NGO in Delhi working on water conservation, clean air, and children's welfare. Founded by Shivam Sood. Donations are tax deductible under Section 80G. CSR Registration Number CSR00107287.",
+  path: "/",
+});
 
 export default function Home() {
   return (
@@ -270,6 +279,8 @@ export default function Home() {
           </div>
         </Container>
       </section>
+
+      <JsonLd data={breadcrumbLd([{ name: "Home", path: "/" }])} />
     </>
   );
 }

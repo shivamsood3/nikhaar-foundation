@@ -3,11 +3,14 @@ import Image from "next/image";
 import { Arrow, Button, Container, Eyebrow, PageHero, SectionHeading } from "@/components/ui";
 import { campaigns, programs } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Our Work",
+import { breadcrumbLd, JsonLd, pageMeta } from "@/lib/seo";
+
+export const metadata: Metadata = pageMeta({
+  title: "Our Programmes | Water, clean air and children’s welfare in Delhi",
   description:
-    "Water conservation, children’s education and welfare, clean air, and civic awareness campaigns run by Nikhaar Foundation in Delhi.",
-};
+    "Nikhaar Foundation runs four programmes in Delhi’s underserved neighbourhoods: water conservation and access, children’s education and welfare, clean air and environment, and civic awareness campaigns.",
+  path: "/our-work",
+});
 
 export default function OurWorkPage() {
   return (
@@ -116,6 +119,13 @@ export default function OurWorkPage() {
           </div>
         </Container>
       </section>
+
+      <JsonLd
+        data={breadcrumbLd([
+          { name: "Home", path: "/" },
+          { name: "Our Work", path: "/our-work" },
+        ])}
+      />
     </>
   );
 }

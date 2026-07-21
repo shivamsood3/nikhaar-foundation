@@ -2,11 +2,14 @@ import type { Metadata } from "next";
 import { Container, Eyebrow, PageHero } from "@/components/ui";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Contact",
+import { breadcrumbLd, JsonLd, pageMeta } from "@/lib/seo";
+
+export const metadata: Metadata = pageMeta({
+  title: "Contact Nikhaar Foundation | Delhi NGO for donations and CSR",
   description:
-    "Get in touch with Nikhaar Foundation about donations, CSR partnerships, volunteering, or media enquiries.",
-};
+    "Contact Nikhaar Foundation about donations with 80G tax deduction, CSR-1 partnerships under CSR00107287, volunteering, or press. Email info@nikhaarfoundation.org.",
+  path: "/contact",
+});
 
 const routes = [
   {
@@ -132,6 +135,13 @@ export default function ContactPage() {
           </div>
         </Container>
       </section>
+
+      <JsonLd
+        data={breadcrumbLd([
+          { name: "Home", path: "/" },
+          { name: "Contact", path: "/contact" },
+        ])}
+      />
     </>
   );
 }
