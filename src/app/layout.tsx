@@ -66,6 +66,9 @@ export const metadata: Metadata = {
     },
   },
   formatDetection: { email: false, address: false, telephone: false },
+  verification: {
+    google: "rb7Bx1ypLLpJUMt_ODQvlKDxi915X321Ajj7nQ9oqhY",
+  },
 };
 
 export default function RootLayout({
