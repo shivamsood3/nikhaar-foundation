@@ -1,6 +1,8 @@
 import { ImageResponse } from "next/og";
 
-export const size = { width: 64, height: 64 };
+// 192x192 (multiple of 48) is Google's preferred favicon size for search
+// results. Ships alongside icon.svg so browsers pick the format they prefer.
+export const size = { width: 192, height: 192 };
 export const contentType = "image/png";
 
 export default async function Icon() {
@@ -14,12 +16,12 @@ export default async function Icon() {
           alignItems: "center",
           justifyContent: "center",
           background: "linear-gradient(135deg,#0d5c55 0%,#08403b 100%)",
-          borderRadius: 14,
+          borderRadius: 42,
         }}
       >
         <svg
-          width="42"
-          height="42"
+          width="128"
+          height="128"
           viewBox="0 0 32 32"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

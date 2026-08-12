@@ -69,6 +69,15 @@ export const metadata: Metadata = {
   verification: {
     google: "rb7Bx1ypLLpJUMt_ODQvlKDxi915X321Ajj7nQ9oqhY",
   },
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/icon", type: "image/png", sizes: "192x192" },
+    ],
+    shortcut: "/icon.svg",
+    apple: { url: "/apple-icon", sizes: "180x180", type: "image/png" },
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({

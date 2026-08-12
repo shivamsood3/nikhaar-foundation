@@ -272,7 +272,7 @@ export default function Home() {
               <Button href="/support#donate">
                 Donate now <Arrow />
               </Button>
-              <Button href="/support#csr" variant="secondary">
+              <Button href="/csr" variant="secondary">
                 Discuss a CSR partnership
               </Button>
             </div>

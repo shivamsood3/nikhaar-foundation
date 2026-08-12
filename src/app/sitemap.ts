@@ -11,6 +11,7 @@ const routes: {
   { path: "/our-work", priority: 0.9, changeFrequency: "monthly" },
   { path: "/impact", priority: 0.9, changeFrequency: "monthly" },
   { path: "/support", priority: 0.95, changeFrequency: "monthly" },
+  { path: "/csr", priority: 0.95, changeFrequency: "monthly" },
   { path: "/donor-guide", priority: 0.85, changeFrequency: "yearly" },
   { path: "/faq", priority: 0.8, changeFrequency: "monthly" },
   { path: "/contact", priority: 0.7, changeFrequency: "yearly" },

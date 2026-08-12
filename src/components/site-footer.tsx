@@ -16,7 +16,7 @@ const columns = [
     title: "Get involved",
     links: [
       { href: "/support", label: "Donate" },
-      { href: "/support#csr", label: "CSR partnerships" },
+      { href: "/csr", label: "CSR partnerships" },
       { href: "/contact", label: "Contact us" },
     ],
   },

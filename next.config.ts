@@ -35,6 +35,13 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  // Legacy crawlers that request /favicon.ico by convention get sent to the
+  // SVG favicon so they still see a real icon instead of a 404.
+  async redirects() {
+    return [
+      { source: "/favicon.ico", destination: "/icon.svg", permanent: true },
+    ];
+  },
 };
 
 // The .com -> .org 308 redirect is set at the Vercel domain level so it
