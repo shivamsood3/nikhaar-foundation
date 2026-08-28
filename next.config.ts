@@ -35,12 +35,12 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-  // Legacy crawlers that request /favicon.ico by convention get sent to the
-  // SVG favicon so they still see a real icon instead of a 404.
-  async redirects() {
-    return [
-      { source: "/favicon.ico", destination: "/icon.svg", permanent: true },
-    ];
+  // Legacy /favicon.ico requests: rewrite (not redirect) to the 192x192 PNG
+  // route so Google's favicon crawler, which does not reliably follow
+  // redirects, gets a real image at the .ico path with a PNG content-type
+  // (both of which Google accepts per its favicon docs).
+  async rewrites() {
+    return [{ source: "/favicon.ico", destination: "/icon" }];
   },
 };
 

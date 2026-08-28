@@ -23,6 +23,7 @@ const columns = [
   {
     title: "For donors",
     links: [
+      { href: "/blog", label: "Blog" },
       { href: "/donor-guide", label: "A donor's guide" },
       { href: "/faq", label: "FAQ" },
     ],
