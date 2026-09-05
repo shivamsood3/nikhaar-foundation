@@ -7,6 +7,7 @@ import {
   articleLd,
   breadcrumbLd,
   canonical,
+  faqLd,
   JsonLd,
   pageMeta,
 } from "@/lib/seo";
@@ -60,8 +61,67 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
 
       <section className="border-b border-line bg-white">
         <Container className="py-20 lg:py-24">
-          <article className="mx-auto">
+          <article className="mx-auto max-w-2xl">
+            {post.keyTakeaways?.length ? (
+              <aside className="mb-14 rounded-2xl bg-sand p-8 ring-1 ring-line">
+                <p className="eyebrow text-teal">Key takeaways</p>
+                <ul className="mt-5 space-y-3 text-base leading-relaxed text-ink">
+                  {post.keyTakeaways.map((k) => (
+                    <li key={k} className="flex gap-3">
+                      <span
+                        className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-ochre"
+                        aria-hidden
+                      />
+                      <span>{k}</span>
+                    </li>
+                  ))}
+                </ul>
+              </aside>
+            ) : null}
+
             <Prose>{post.body}</Prose>
+
+            {post.faqs?.length ? (
+              <section
+                aria-labelledby="post-faqs"
+                className="mt-16 border-t border-line pt-12"
+              >
+                <p className="eyebrow text-teal">Frequently asked</p>
+                <h2
+                  id="post-faqs"
+                  className="display mt-3 text-2xl text-ink sm:text-3xl"
+                >
+                  Answers to the questions this article gets asked.
+                </h2>
+                <div className="mt-8 divide-y divide-line border-y border-line">
+                  {post.faqs.map((f) => (
+                    <details key={f.q} className="group py-5">
+                      <summary className="flex cursor-pointer list-none items-start justify-between gap-6 text-base font-medium text-ink marker:content-['']">
+                        {f.q}
+                        <span
+                          className="mt-1.5 shrink-0 text-teal transition-transform duration-200 group-open:rotate-45"
+                          aria-hidden
+                        >
+                          <svg
+                            viewBox="0 0 16 16"
+                            className="h-4 w-4"
+                            fill="none"
+                          >
+                            <path
+                              d="M8 3v10M3 8h10"
+                              stroke="currentColor"
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
+                            />
+                          </svg>
+                        </span>
+                      </summary>
+                      <p className="mt-4 leading-relaxed text-ink-soft">{f.a}</p>
+                    </details>
+                  ))}
+                </div>
+              </section>
+            ) : null}
           </article>
         </Container>
       </section>
@@ -108,6 +168,7 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
           isPartOf: { "@id": `${canonical("/blog")}#blog` },
         }}
       />
+      {post.faqs?.length ? <JsonLd data={faqLd(post.faqs)} /> : null}
       <JsonLd
         data={breadcrumbLd([
           { name: "Home", path: "/" },
