@@ -1212,6 +1212,804 @@ const CsrRulesFaqs = [
   },
 ];
 
+const PumpEconomicsArticle = () => (
+  <>
+    <p>
+      Around 3,000 people in Indira Gandhi Camp, Kasturba Nagar, now have
+      water at their doorstep because a community pump was installed inside
+      the settlement. The intervention was not expensive. It was not
+      technically complicated. It saves the average household in that lane
+      roughly two hours a day and a few hundred rupees a month in tanker
+      fees. It had simply never been anyone's job.
+    </p>
+    <p>
+      This article is an attempt to open up the economics of a community
+      water pump in enough detail to be useful. What it actually costs to put
+      one in, what it changes for a household, what the per-beneficiary
+      arithmetic looks like, why it is a better use of philanthropic capital
+      than a subsidy or an awareness campaign, and what can go wrong. The
+      numbers below are drawn from our own installation. They will vary in
+      other settlements. The order of magnitude will not.
+    </p>
+
+    <h2>What a community water pump actually is</h2>
+    <p>
+      In an unplanned Delhi settlement, a community pump is usually a small
+      electric submersible or a jet pump connected to a groundwater
+      source or a municipal line where one is available at the boundary of
+      the settlement. The pump sits inside the lane it serves, on a raised
+      concrete plinth, protected from weather. It is connected to a shared
+      tap point or, in the better cases, to a short distribution stub that
+      feeds a handful of household connections a few metres away.
+    </p>
+    <p>
+      Siting is the most consequential decision. The pump has to sit close
+      enough to a household cluster that a five-year-old can reach it with a
+      pitcher, but far enough from the nearest bore or leak-prone connection
+      that it does not draw down a neighbour's supply. In practice, siting is
+      a conversation with residents. The engineering is easier than the
+      politics.
+    </p>
+
+    <h2>What the intervention actually costs</h2>
+    <p>
+      Rough breakdown of what a community pump installation in a Delhi camp
+      looks like as a set of line items. Individual costs vary with local
+      conditions, existing infrastructure, and negotiated rates. The
+      structure of the spending does not.
+    </p>
+    <ul>
+      <li>
+        <strong>Site survey and community meetings.</strong> A trip or two to
+        agree on the site, the households served, and the person or people
+        who will hold operational responsibility after handover.
+      </li>
+      <li>
+        <strong>Groundwater or connection assessment.</strong> Making sure the
+        source can actually meet daily demand at peak times, and that the
+        connection point is not going to create a dispute with an adjacent
+        supply.
+      </li>
+      <li>
+        <strong>Pump hardware.</strong> The pump itself, control panel,
+        pressure switch, non-return valve, and cabling. This is the largest
+        single line item.
+      </li>
+      <li>
+        <strong>Plumbing.</strong> Pipe from source to pump, from pump to
+        distribution point, tap fittings, and any short household connection
+        stubs.
+      </li>
+      <li>
+        <strong>Civil work.</strong> The plinth, a protective enclosure,
+        drainage around the tap so the surrounding ground does not turn to
+        mud.
+      </li>
+      <li>
+        <strong>Electricity connection or metering.</strong> Where the pump
+        cannot be run off a resident's existing connection, a dedicated
+        supply arrangement.
+      </li>
+      <li>
+        <strong>Installation labour.</strong> The plumber, the electrician,
+        and someone on site to coordinate the day.
+      </li>
+      <li>
+        <strong>Handover documentation.</strong> A written agreement with
+        whoever holds operational responsibility, a spare parts list, and
+        contact numbers for the plumber and the electrician.
+      </li>
+    </ul>
+    <p>
+      All of this together, for a pump serving somewhere between five hundred
+      and three thousand people, comes to a figure most private donors would
+      recognise as smaller than a mid-range annual charitable commitment. It
+      is well within a modest CSR budget. It is inside a single small
+      family's discretionary giving envelope.
+    </p>
+
+    <h2>What it saves each household</h2>
+    <p>
+      Three types of savings, each measurable.
+    </p>
+    <h3>Time</h3>
+    <p>
+      Before the pump, collecting water in Indira Gandhi Camp took most
+      households between one and a half and two and a half hours a day,
+      spread across two or three trips depending on family size and how
+      early someone was willing to wake up. After the pump, the trip is a
+      thirty-second walk to a tap that works. Assume, conservatively, two
+      hours a day saved per household. Multiplied by six days a week, fifty
+      weeks a year, that is six hundred hours per household per year. Across
+      the six hundred households the pump serves, it is roughly 360,000
+      person-hours a year of returned time.
+    </p>
+    <p>
+      Most of that time went to women. A meaningful share went to older
+      children who now stay in school through the morning.
+    </p>
+    <h3>Money</h3>
+    <p>
+      When municipal supply fails and there is no fixed alternative,
+      households buy from private tankers. Delhi's tanker rates for a small
+      household drum run into the low hundreds of rupees per delivery, with
+      several deliveries a month on a bad month. A conservative estimate for
+      the pump's monthly saving to an average household is one hundred and
+      fifty to three hundred rupees. That is a few thousand rupees a year
+      that stays in a household earning ten to twenty thousand rupees a
+      month.
+    </p>
+    <h3>Health</h3>
+    <p>
+      Municipal water in Delhi is of variable quality. Tanker water is worse.
+      A community pump drawing from a properly assessed source, with a clean
+      tap, meaningfully reduces the incidence of waterborne illness in a
+      household. This effect is real but we do not quantify it in our
+      reporting because we did not measure it. It should be assumed to be a
+      further gain on top of the time and money numbers.
+    </p>
+
+    <h2>Cost per beneficiary, honestly stated</h2>
+    <p>
+      The per-beneficiary cost of a community water pump depends on how you
+      count. Three ways of thinking about it are useful.
+    </p>
+    <p>
+      <strong>Capital cost per person served on day one.</strong> Take the
+      installation cost and divide by the population served immediately. For
+      a pump serving 3,000 people in Indira Gandhi Camp, this comes out to a
+      low double-digit rupee figure per person, one-time.
+    </p>
+    <p>
+      <strong>Amortised cost per person per year.</strong> Take the same
+      capital cost, amortise over a conservative asset life of ten years,
+      add an annual maintenance provision, and divide by the population. The
+      per-person annual cost is a small single-digit rupee figure.
+    </p>
+    <p>
+      <strong>Cost per hour of time returned.</strong> Take the amortised
+      annual cost and divide by the total person-hours saved by the
+      installation each year. The per-hour cost of returned time is a very
+      small fraction of a rupee. This is the number that makes a community
+      pump look uniquely good next to almost every other water intervention.
+    </p>
+
+    <h2>Why this beats a subsidy or an awareness campaign</h2>
+    <p>
+      Both subsidies and awareness campaigns have their place. Neither is a
+      substitute for a physical asset at the point of use.
+    </p>
+    <p>
+      A tanker subsidy immediately reduces household spending on water. The
+      moment it ends, the queue and the fee return. From an impact per rupee
+      perspective, a subsidy delivers relief only for the period it is
+      funded. There is no residual asset.
+    </p>
+    <p>
+      An awareness campaign changes what people know. In a settlement where
+      the problem is not that residents fail to appreciate water's scarcity
+      (they collect it by hand every morning) but that the tap is not in the
+      right place, information is not the binding constraint. Awareness
+      campaigns work well upstream, at the level of household appliance
+      choice or industrial waste. In a basti, they land against a wall of
+      lived experience.
+    </p>
+    <p>
+      A community pump costs more upfront than an equivalent-year
+      subsidy or campaign. It pays back in year one and continues paying back
+      every year after that, as long as the maintenance stays honest.
+    </p>
+
+    <h2>The maintenance question</h2>
+    <p>
+      Most community water infrastructure that fails, fails at maintenance.
+      A pump that runs for six years and then sits broken for another five
+      is not a success. Two questions decide whether the asset lasts.
+    </p>
+    <p>
+      <strong>Who runs it after handover.</strong> In our model, ownership
+      transfers to the residents. A named individual or a small group holds
+      the key to the enclosure, the spare parts, and the plumber's number.
+      There is no ongoing role for the foundation.
+    </p>
+    <p>
+      <strong>Where the money for repairs comes from.</strong> Households
+      typically pool a small monthly contribution for electricity and minor
+      repairs. Where the pump feeds household connections, the small
+      contribution comes naturally. Where it feeds a shared tap, the
+      collection needs a slightly more deliberate structure. Either way, it
+      is a small amount at the household level and does not require external
+      funding.
+    </p>
+    <p>
+      A pump handed over well outlasts a pump maintained by the funder. The
+      residents have a much better reason than we do to keep it running.
+    </p>
+
+    <h2>What can go wrong, and how we plan for it</h2>
+    <ul>
+      <li>
+        <strong>Source dries up.</strong> Groundwater in some Delhi pockets
+        is under stress. We site pumps only where the source has been
+        assessed to sustain year-round demand.
+      </li>
+      <li>
+        <strong>Dispute over usage.</strong> A new supply in a lane changes
+        who has easy access to water and can create local politics. We
+        insist on a public site meeting before installation and a written
+        record of the households the pump is intended to serve.
+      </li>
+      <li>
+        <strong>Pump fails outside warranty.</strong> A modest maintenance
+        fund at the community level, plus a documented plumber and
+        electrician, tends to keep small failures from becoming permanent.
+      </li>
+      <li>
+        <strong>Ownership fights.</strong> Handover to a small named group
+        rather than a single individual reduces the risk of the pump
+        becoming private property.
+      </li>
+      <li>
+        <strong>Electricity supply issues.</strong> We prefer pumps that can
+        be run off a resident's existing meter with reimbursement rather
+        than a dedicated line that becomes a bureaucratic dependency.
+      </li>
+    </ul>
+
+    <h2>What this looks like at scale</h2>
+    <p>
+      One pump helps one lane. Delhi has hundreds of lanes with the same
+      structural problem. There is no technical obstacle to installing
+      dozens of pumps a year across Delhi's underserved settlements. The
+      constraints are:
+    </p>
+    <ul>
+      <li>
+        Trusted survey capacity to site each pump correctly
+      </li>
+      <li>
+        Relationships with the plumbers, electricians, and hardware
+        suppliers who can execute reliably at modest cost
+      </li>
+      <li>
+        Follow-through on handover documentation and community structure so
+        each pump lasts a decade rather than a season
+      </li>
+      <li>
+        Funding
+      </li>
+    </ul>
+    <p>
+      Of these four, the fourth is the one that responds directly to a
+      donation. A committed annual budget in the low tens of lakhs, held
+      over three years, turns into a step change in water access across the
+      neighbourhoods we currently work in.
+    </p>
+
+    <h2>Why we lead with this programme</h2>
+    <p>
+      A community water pump is the clearest example of what we ask funders
+      to buy. A defined problem in a named place. A physical fix. A
+      countable set of people better off. An asset that stays with the
+      community after we have gone. Reporting that says what happened, not
+      what we hope will happen.
+    </p>
+    <p>
+      If you would like to fund the next pump, or three pumps, or a year of
+      pumps, our{" "}
+      <Link href="/support#donate">support page</Link> has bank and UPI
+      details for individual donors with 80G receipting, and our{" "}
+      <Link href="/csr">CSR partnerships page</Link> has the full pack for a
+      CSR committee. The wider case for physical water infrastructure in
+      Delhi is in our post on{" "}
+      <Link href="/blog/delhi-water-access-basti-community-pumps">
+        Delhi's water access problem
+      </Link>
+      .
+    </p>
+  </>
+);
+
+const PumpEconomicsFaqs = [
+  {
+    q: "How much does it cost to install a community water pump in a Delhi settlement?",
+    a: "A community water pump installation in a Delhi basti covers site survey, community meetings, source assessment, pump hardware, plumbing, civil work, electricity arrangements, installation labour, and handover documentation. In our own installations, the total for a pump serving several hundred to a few thousand people has been well within a modest CSR budget or a family-level annual charitable commitment. The largest single line item is usually the pump hardware itself.",
+  },
+  {
+    q: "How many people can one community water pump serve?",
+    a: "A single well-sited community water pump in a dense Delhi settlement can serve between five hundred and three thousand people. The number depends on source capacity, distribution length, peak demand, and whether the pump feeds a shared tap or short household connection stubs.",
+  },
+  {
+    q: "Who maintains a community water pump after installation?",
+    a: "In our model, ownership and operational responsibility transfer to the residents at handover. A named individual or small group holds the enclosure key, the spare parts, and the plumber's contact. Households typically pool a small monthly contribution for electricity and minor repairs. There is no ongoing role for the foundation.",
+  },
+  {
+    q: "How long does a community water pump last?",
+    a: "A well-installed community water pump with honest maintenance can last a decade or more. The main failure mode is not the hardware but the maintenance structure. Pumps handed over with a named operator, a documented plumber, and a small pooled maintenance fund typically outlast pumps that remain the funder's ongoing responsibility.",
+  },
+  {
+    q: "Is a community water pump better than tanker subsidies for a Delhi settlement?",
+    a: "Yes, by a large margin over a multi-year horizon. A tanker subsidy delivers relief only for the period it is funded, with no residual asset. A community water pump costs more upfront, pays back within a year in returned time and reduced tanker spending, and continues paying back every year after that, as long as the maintenance stays honest.",
+  },
+  {
+    q: "Can a CSR committee fund a community water pump under Schedule VII?",
+    a: "Yes. A community water pump installation maps cleanly to Schedule VII (i) of the Companies Act, 2013, which covers safe drinking water and sanitation. Nikhaar Foundation is CSR-1 registered under CSR00107287 and can supply the full documentation pack for your CSR committee.",
+  },
+];
+
+const TwoHourWalkArticle = () => (
+  <>
+    <p>
+      In Indira Gandhi Camp, in Kasturba Nagar, until the summer of last
+      year, the first two hours of most weekdays belonged to water. Not to
+      breakfast, not to school, not to the shift at the salon or the
+      restaurant or the domestic job three lanes away. To water.
+    </p>
+    <p>
+      It is easy to write about water access as a policy problem. It is
+      harder to write about it as a time problem, which is what it is, in
+      practice, for the household that lives inside it. This piece is the
+      second of the two.
+    </p>
+
+    <h2>The three walks</h2>
+    <p>
+      In a dense Delhi settlement without reliable in-lane supply, water
+      collection tends to fall into three patterns.
+    </p>
+    <p>
+      <strong>The tanker queue.</strong> On days when a municipal or private
+      tanker rolls in at a scheduled hour, the queue starts thirty minutes
+      before. The women stand with drums. If the tanker arrives late, the
+      queue extends into the school day and the workday. If the tanker
+      arrives early, the household that missed the message misses the
+      water.
+    </p>
+    <p>
+      <strong>The distant tap.</strong> Where a working municipal tap exists
+      but is not inside the lane, the walk to it and back with weight can
+      take twenty to forty minutes each way. Three trips a day is common.
+      The load is heavy enough that older children are recruited into the
+      work as soon as they are able. Younger children come along because
+      there is no one to leave them with.
+    </p>
+    <p>
+      <strong>The paid delivery.</strong> Where the queue is untenable and
+      the walk too long, households pay someone else to bring water. In a
+      basti in central Delhi, a private drum delivered can cost more than a
+      day's wage at the low end of the labour market. The households paying
+      this are the ones with the least room to.
+    </p>
+    <p>
+      Most households cycle between the three depending on the day, the
+      time, the season, and how bad the summer is that week.
+    </p>
+
+    <h2>What two hours a day actually adds up to</h2>
+    <p>
+      Two hours a day sounds bearable in the abstract. Compounded, it is
+      not.
+    </p>
+    <ul>
+      <li>
+        Two hours a day, six days a week, fifty weeks a year, is six hundred
+        hours per household per year. About three and a half working weeks.
+      </li>
+      <li>
+        Across a settlement of six hundred households, it is 360,000
+        person-hours a year, most of them belonging to women. That is
+        equivalent to the annual working time of about a hundred and eighty
+        full-time workers.
+      </li>
+      <li>
+        For a household earning ten thousand rupees a month at the informal
+        wage rate for the primary earner, six hundred hours of returned
+        time per year represents on the order of thirty to fifty thousand
+        rupees of foregone earning capacity, or the equivalent household
+        productivity, depending on how it is spent.
+      </li>
+    </ul>
+    <p>
+      These are not clever numbers. They are the arithmetic of two hours a
+      day.
+    </p>
+
+    <h2>Who pays the time</h2>
+    <p>
+      Water collection in Delhi's bastis is almost entirely a women's job.
+      In a settlement of a hundred households, ninety-five will have the
+      task done by the eldest daughter or the mother. The father is at his
+      workplace by six in the morning. The son goes to school. The
+      grandmother, where she is present, does what she can. That leaves
+      the woman running the household.
+    </p>
+    <p>
+      The effect on her day is direct and unromantic. She wakes at
+      four-thirty. She fetches water until six-thirty or seven. She then
+      sends the children to school, cooks breakfast, cleans, and if she
+      has an outside job, she leaves at half past eight or nine and returns
+      at seven. The tail of her day is not shorter than it needs to be. It
+      is exactly as long as it needs to be, plus water.
+    </p>
+    <p>
+      When she has a daughter of school-going age, the daughter is asked to
+      help. Some daughters are asked to help enough that they attend school
+      inconsistently and eventually stop. The interaction between water and
+      girls' education is present in almost every settlement of this kind.
+    </p>
+
+    <h2>The morning after a pump goes in</h2>
+    <p>
+      When a community pump is installed inside the lane and handed over to
+      residents, the change is immediate. The queue does not shorten. It
+      disappears. The trip that was two hours becomes thirty seconds.
+    </p>
+    <p>
+      What happens with the returned time is not uniform. Some of it goes to
+      the same household work that was there before, done more thoroughly.
+      Some of it goes to work outside the home that the woman could not
+      previously fit in her day. Some of it goes to the children whose
+      education used to compete with the walk. Some of it goes to nothing
+      in particular, which is fine. Rest is a valid use of returned time.
+    </p>
+    <p>
+      The point is not that a pump makes anyone rich. The point is that a
+      pump gives an entire lane back the first two hours of the day. Every
+      day. Six days a week. Every year the pump stays in service. That is
+      a much larger effect than the cost of the intervention would suggest.
+    </p>
+
+    <h2>Why this is worth paying attention to</h2>
+    <p>
+      Time-poverty in Delhi's bastis is not a well-covered story. Water is
+      a household problem. Household problems, in this country and most
+      others, do not get the attention that supply-side infrastructure
+      problems get. The tanker system is regulated, the pipe network is
+      contested, the borewell debate is live. The two-hour queue at the
+      end of them is not on any front page.
+    </p>
+    <p>
+      If you are a donor who thinks in terms of returns on capital, time
+      returned to women in Delhi's bastis is one of the highest-return uses
+      of philanthropic money we are aware of. Not because women's time is
+      undervalued in some abstract way, though it is. Because the physical
+      cost of returning the time is very low, and it stays returned for
+      years.
+    </p>
+
+    <h2>How to help</h2>
+    <p>
+      Nikhaar Foundation funds and installs community water pumps in
+      Delhi's underserved settlements and hands them to residents. If you
+      want to fund the next pump or contribute more broadly, our{" "}
+      <Link href="/support#donate">donate page</Link> has the bank and UPI
+      details, and our{" "}
+      <Link href="/blog/economics-of-a-community-water-pump-delhi-basti">
+        long-form piece on the economics of a community pump
+      </Link>{" "}
+      has the numbers in more detail. For companies routing Section 135 CSR
+      spending, our <Link href="/csr">CSR partnerships page</Link> covers
+      the Schedule VII mapping and the documentation pack.
+    </p>
+  </>
+);
+
+const TwoHourWalkFaqs = [
+  {
+    q: "How much time do women in Delhi's bastis spend collecting water each day?",
+    a: "In Delhi's underserved settlements without reliable in-lane water supply, women typically spend between one and a half and two and a half hours a day collecting water, spread across two or three trips. This is the pattern in places like Indira Gandhi Camp in Kasturba Nagar before a community water pump was installed.",
+  },
+  {
+    q: "Why does water collection fall on women in Delhi's settlements?",
+    a: "Household water collection in Delhi's bastis is largely a women's job because male members of the household typically leave for outside work early and children are in school or too young to carry the load. The primary earner cannot fetch water in the morning. The task falls to the woman running the household, often with help from the eldest daughter, which affects her school attendance.",
+  },
+  {
+    q: "What does a community water pump change for a Delhi basti?",
+    a: "A community water pump installed inside a settlement and handed over to residents eliminates the daily water collection walk. A two hour task becomes a thirty second one. The returned time redistributes across additional household work, outside employment for women who could not previously fit it in, more consistent school attendance for older daughters, and rest.",
+  },
+  {
+    q: "How does water access affect girls' education in Delhi?",
+    a: "In Delhi's underserved settlements, older daughters are frequently recruited into the daily water collection walk, which affects their school attendance. Consistent absence tends to compound into disengagement and eventually withdrawal from school. Interventions that remove the walk, such as a community water pump inside the lane, have a direct and measurable effect on girls' school attendance in that lane.",
+  },
+  {
+    q: "How much money does a household in a Delhi basti spend on water?",
+    a: "A household in a Delhi basti without reliable municipal supply typically spends between one hundred and fifty and three hundred rupees a month on private tanker deliveries, more in the summer. Households earning ten to twenty thousand rupees a month feel this as a meaningful proportion of discretionary spending. A community water pump inside the lane eliminates most of this.",
+  },
+];
+
+const GiveBetterArticle = () => (
+  <>
+    <p>
+      For most donors, giving well is not primarily a question of how much.
+      It is a question of how. The same annual amount, arranged well, does
+      several times the good it does when arranged carelessly. This is a
+      practical guide, aimed at donors who already give and want to give
+      better, on the choices that actually compound.
+    </p>
+    <p>
+      It is not a fundraising piece. Every point below is one we would give
+      you if you were considering giving to another organisation entirely.
+    </p>
+
+    <h2>Choose the intervention type before you choose the organisation</h2>
+    <p>
+      Charitable giving in India runs on three broad types of intervention.
+      They behave differently in ways worth thinking about before you
+      commit money to any organisation.
+    </p>
+    <p>
+      <strong>Physical assets.</strong> A pump, a classroom, a solar panel,
+      a piece of medical equipment. Assets have a defined unit cost, a
+      countable beneficiary set, and a residual value that lasts after the
+      donation is spent. They are easiest to explain to a family member or
+      a CSR committee. They are what your money literally buys.
+    </p>
+    <p>
+      <strong>Programmes.</strong> A year of after-school tutoring, a
+      season of health camps, a running clean air campaign. Programmes do
+      not leave a residual asset. They deliver a service for a period of
+      time. They tend to be higher impact per rupee where the underlying
+      problem is behavioural or informational rather than physical.
+    </p>
+    <p>
+      <strong>Unrestricted funding.</strong> Money the organisation gets to
+      spend where it needs it most. This is the single most useful thing you
+      can give a well-run NGO. It is also the hardest to justify to a CSR
+      committee or a family member who wants to see the receipt.
+    </p>
+    <p>
+      Serious donors tend to use all three, in proportion. A common pattern
+      that works: one large restricted asset-level gift a year for the
+      story, a multi-year programme grant for the impact, and a
+      smaller unrestricted contribution for the organisation's ability to
+      operate.
+    </p>
+
+    <h2>Recurring beats one-time, and it is not close</h2>
+    <p>
+      A ten-thousand-rupee one-time donation is a ten-thousand-rupee
+      one-time donation. A thousand rupees a month over ten years is a
+      hundred and twenty thousand rupees of committed capital that the
+      NGO can plan against. The second is worth more than twelve times the
+      first, not just twelve times, because it lets the organisation take
+      commitments it could not otherwise take.
+    </p>
+    <p>
+      Recurring donations do three specific things:
+    </p>
+    <ul>
+      <li>
+        They let the NGO commit to multi-year work with the community. A
+        two-year education programme cannot be run on an annual fundraising
+        cycle.
+      </li>
+      <li>
+        They reduce the fundraising overhead. Every one-time donor has to
+        be sold to again next year. A recurring donor has already decided.
+      </li>
+      <li>
+        They lower the psychological cost of giving. A thousand rupees a
+        month is a background line item. Ten thousand once a year feels
+        like a decision.
+      </li>
+    </ul>
+    <p>
+      Set up a UPI mandate or a bank standing instruction and forget about
+      it. Review annually, adjust in line with your income, ask the NGO for
+      an annual update.
+    </p>
+
+    <h2>Concentrated giving is more useful than spread giving</h2>
+    <p>
+      There is a real temptation to give small amounts to many
+      organisations. It feels balanced. It also produces the smallest
+      possible impact per rupee.
+    </p>
+    <p>
+      The reason concentration works is not that any single NGO deserves
+      the money more than another. It is that most of what makes
+      philanthropic capital valuable, beyond the money itself, is
+      relational. A donor who gives one lakh a year to one NGO is a person
+      the NGO can call for help with an unusual problem, a referral to
+      another donor, or a warm introduction to a CSR team. A donor who
+      gives five thousand rupees to twenty NGOs is not that person to any
+      of them.
+    </p>
+    <p>
+      If you cannot bring yourself to concentrate on one organisation,
+      three is a reasonable maximum. Fund each one meaningfully. Meet the
+      people running each one. Read what each one publishes.
+    </p>
+
+    <h2>Multi-year commitments are worth more than they cost you</h2>
+    <p>
+      A five-year commitment at the same annual level as a single-year
+      donation is worth more than five times the single-year gift, for
+      almost exactly the same reason recurring is worth more than one-time.
+      It lets the NGO plan.
+    </p>
+    <p>
+      NGOs in India rarely ask for multi-year commitments because donors
+      rarely offer them. If you are in a position to offer one, say so
+      explicitly. You will get a materially better version of the
+      partnership: better reporting, more access, an actual working
+      relationship rather than a transactional one.
+    </p>
+
+    <h2>Memorial and legacy giving in India</h2>
+    <p>
+      A meaningful share of large charitable giving in India is triggered
+      by loss. Memorial giving in the name of a parent, a spouse, or a
+      close friend, is common. It works well when it is structured as a
+      named contribution to a specific programme rather than as a one-time
+      general donation.
+    </p>
+    <p>
+      A named contribution can be small or large. The size matters less
+      than the structure. A hundred thousand rupees given as "in memory of
+      my mother" toward the annual running of a specific children's
+      welfare drive gives you and your family a place to return to, a set
+      of people who know your family's name, and a real relationship with
+      the work. A hundred thousand rupees given as a one-time general
+      donation with no naming and no follow-up disappears into the
+      organisation's general ledger.
+    </p>
+    <p>
+      Legacy giving, meaning giving arranged through a will, is
+      structurally similar. Talk to the NGO before you write the
+      arrangement into your will. Most Indian NGOs have never processed
+      one and will need to build the internal capacity.
+    </p>
+
+    <h2>Family giving needs a small structure</h2>
+    <p>
+      Households that give more than a token amount typically benefit from
+      a small internal system. Nothing formal. A conversation once a year,
+      usually near the end of the financial year for tax reasons, about
+      what the family gave in the last twelve months, what worked, and
+      what to do next year.
+    </p>
+    <p>
+      Households that treat giving as a shared decision tend to give more
+      and to give better. Both children and older parents tend to be
+      considerably more engaged when they have a voice in where the money
+      goes, and considerably more likely to give themselves when they are
+      older. This is an underrated form of intergenerational wealth
+      transfer.
+    </p>
+
+    <h2>Corporate matching is uncommon in India but worth asking about</h2>
+    <p>
+      Payroll matching, where an employer matches an employee's charitable
+      donation up to a limit, is the standard in most large economies. In
+      India it is uncommon. It is not, however, unheard of.
+    </p>
+    <p>
+      If you work at a listed Indian company or the Indian subsidiary of a
+      global company, it is worth asking your HR team or finance team
+      whether such a programme exists or could be created. The answer is
+      often yes when someone bothers to ask. A matched donation doubles
+      your effective annual gift at no additional cost to you.
+    </p>
+    <p>
+      If you sit on a CSR committee, this is also worth raising there. A
+      well-designed payroll matching programme can be structured to count
+      toward CSR spending under Section 135 subject to the usual
+      compliance conditions.
+    </p>
+
+    <h2>Ask the hard questions before you scale up</h2>
+    <p>
+      Before you take a giving relationship from a one-year small gift to
+      a multi-year larger commitment, ask the organisation:
+    </p>
+    <ul>
+      <li>
+        What are the last three things that did not work, and what did you
+        change as a result
+      </li>
+      <li>
+        How would you spend an unrestricted commitment that was ten times
+        our current annual gift
+      </li>
+      <li>
+        Where do you spend the most on things that are not directly
+        beneficiary-facing, and why
+      </li>
+      <li>
+        Who would you compare yourselves to in this space, and what makes
+        you different
+      </li>
+      <li>
+        Who is your longest-standing donor and can we talk to them
+      </li>
+    </ul>
+    <p>
+      The answers themselves matter less than the presence of an answer.
+      A serious NGO will have thought about each of these. An unserious
+      NGO will not.
+    </p>
+
+    <h2>Red flags when scaling up</h2>
+    <ul>
+      <li>
+        Reluctance to discuss overhead or administrative costs
+      </li>
+      <li>
+        Programme photographs that repeat across the last three years
+      </li>
+      <li>
+        Beneficiary numbers that grow linearly year over year without
+        explanation
+      </li>
+      <li>
+        A finance team that struggles to send audited financials in a
+        timely way
+      </li>
+      <li>
+        Pressure to commit at a particular calendar moment rather than on
+        your timeline
+      </li>
+      <li>
+        Founder or director involvement in decisions that should be
+        handled by staff, or the reverse
+      </li>
+    </ul>
+
+    <h2>Where to start if you have not given seriously before</h2>
+    <p>
+      Pick one programme area you care about. Pick one organisation in
+      that area that clears the trust checklist in our post on{" "}
+      <Link href="/blog/how-to-choose-trustworthy-ngo-india-donor-checklist">
+        how to choose a trustworthy NGO in India
+      </Link>
+      . Give a bounded amount for a bounded outcome that you can point at
+      afterwards. Meet the people running it. Read what they publish. If
+      the experience is what you hoped, scale up next year. If not, move.
+    </p>
+    <p>
+      If you would like to explore giving to Nikhaar Foundation
+      specifically, our{" "}
+      <Link href="/support#donate">support page</Link> has account and UPI
+      details for individual donors, our{" "}
+      <Link href="/csr">CSR partnerships page</Link> covers Section 135
+      spending, and our <Link href="/impact">impact page</Link> shows what
+      a delivered piece of work looks like from our side.
+    </p>
+  </>
+);
+
+const GiveBetterFaqs = [
+  {
+    q: "What is the most effective way to give to an NGO in India?",
+    a: "The most effective giving to an Indian NGO is usually recurring rather than one-time, concentrated in a small number of organisations rather than spread thinly, and offered on a multi-year basis where possible. Physical asset contributions, ongoing programme funding, and unrestricted grants each serve different purposes and a balanced donor uses all three.",
+  },
+  {
+    q: "Should I set up a monthly donation to an NGO or give a lump sum once a year?",
+    a: "A monthly recurring donation is materially more useful to a well-run NGO than an equivalent lump sum given once a year. Recurring donations let the organisation plan and commit to multi-year work with the community, reduce fundraising overhead, and remove the annual decision-making cost for the donor. For most donors, the psychological cost of giving is also lower when it is a monthly line item.",
+  },
+  {
+    q: "Is it better to give a small amount to many NGOs or a larger amount to one?",
+    a: "Concentrating giving in one or a small number of organisations produces higher impact per rupee than spreading it thinly. Beyond the money itself, most of what makes a donor relationship valuable is relational, and only concentrated giving builds that. Three organisations is a reasonable maximum for most private donors.",
+  },
+  {
+    q: "How do I set up a memorial donation in India?",
+    a: "A memorial donation in India works best when structured as a named contribution to a specific programme rather than as a general one-time donation. Talk to the NGO first and agree on the naming convention, the programme, and the reporting cadence. Memorial giving of any size benefits from this structure. Legacy giving through a will should be discussed with the NGO in advance so they can build the internal processes.",
+  },
+  {
+    q: "Does my employer match charitable donations in India?",
+    a: "Payroll matching, where an employer matches an employee's charitable donation, is not the norm in India but exists at some listed Indian companies and Indian subsidiaries of global companies. Ask your HR or finance team directly, and if you sit on a CSR committee it is worth raising there. A well-designed matching programme can double your effective annual gift at no additional cost to you.",
+  },
+  {
+    q: "What questions should I ask an NGO before making a larger donation?",
+    a: "Ask about the last three things that did not work and what changed as a result, how they would spend a ten-times-larger unrestricted commitment, where they spend the most on things not directly beneficiary-facing, who they compare themselves to in the sector, and whether you can talk to their longest-standing donor. The answers themselves matter less than the fact that a serious organisation will have considered each of these questions.",
+  },
+  {
+    q: "Are recurring donations to an Indian NGO eligible for 80G tax deduction?",
+    a: "Yes. Recurring donations to a 12A and 80G registered Indian NGO are eligible for Section 80G deduction on the same basis as one-time donations. The NGO issues receipts on the cadence you set, typically monthly or quarterly, or a consolidated annual receipt at year end. Each receipt carries the sixteen digit 80G URN.",
+  },
+];
+
 export const posts: Post[] = [
   {
     slug: "how-to-donate-to-an-ngo-in-india-80g-tax-deduction",
@@ -1375,6 +2173,107 @@ export const posts: Post[] = [
     ],
     faqs: CsrRulesFaqs,
     body: <CsrRulesArticle />,
+  },
+  {
+    slug: "economics-of-a-community-water-pump-delhi-basti",
+    title:
+      "The economics of a community water pump: what actually happens to a lane once the queue disappears",
+    description:
+      "A detailed breakdown of the cost, per-beneficiary economics, and long-term impact of installing a community water pump in a Delhi basti, drawn from the Indira Gandhi Camp case study. Covers hardware, plumbing, siting, maintenance, and why it beats subsidies and awareness campaigns.",
+    excerpt:
+      "What a community water pump in a Delhi settlement actually costs, what it saves each household in time and money, and why it is the highest leverage philanthropic asset in urban India.",
+    datePublished: "2026-09-29",
+    dateModified: "2026-09-29",
+    readingTime: "12 min read",
+    category: "Programmes",
+    keywords: [
+      "community water pump cost India",
+      "cost of water pump Delhi basti",
+      "NGO cost per beneficiary",
+      "urban water infrastructure India",
+      "water pump donation India",
+      "Delhi settlement water",
+      "community water infrastructure India",
+      "Indira Gandhi Camp Kasturba Nagar",
+      "high leverage philanthropy India",
+    ],
+    keyTakeaways: [
+      "A community water pump in a Delhi settlement pays back in returned household time within the first year and continues to pay back annually across a ten year asset life.",
+      "The three cost lenses that matter are one-time capital per person, amortised annual cost per person, and cost per hour of returned household time.",
+      "Handover to residents with a named operator, a documented plumber, and a small pooled maintenance fund is what makes the asset last a decade rather than a season.",
+      "Tanker subsidies and awareness campaigns have their place; neither is a substitute for a physical asset at the point of use.",
+      "A committed annual budget in the low tens of lakhs, held over three years, can produce a step change in water access across Delhi's underserved settlements.",
+    ],
+    faqs: PumpEconomicsFaqs,
+    body: <PumpEconomicsArticle />,
+  },
+  {
+    slug: "two-hour-water-walk-women-time-poverty-delhi",
+    title:
+      "The two hour water walk: what women in Delhi's bastis pay in time before they earn anything",
+    description:
+      "A narrative account of the daily water collection burden borne by women in Delhi's underserved settlements, the cascading effect on girls' schooling and household income, and what a community water pump changes when it goes in.",
+    excerpt:
+      "Two hours a day, six days a week, 360,000 person-hours a year in a single settlement. What water collection actually costs women in Delhi's bastis, and what a community pump returns to them.",
+    datePublished: "2026-09-29",
+    dateModified: "2026-09-29",
+    readingTime: "8 min read",
+    category: "Programmes",
+    keywords: [
+      "women water Delhi",
+      "time poverty women India",
+      "water burden women",
+      "Delhi women water collection",
+      "girls education water access",
+      "urban poverty Delhi women",
+      "water women's welfare NGO Delhi",
+      "gender water Delhi",
+      "domestic water burden India",
+    ],
+    keyTakeaways: [
+      "In Delhi's bastis without in-lane water supply, women spend between 1.5 and 2.5 hours a day collecting water.",
+      "The load falls almost entirely on women and older daughters, with a direct effect on school attendance.",
+      "Across a single settlement of 600 households, that is roughly 360,000 person-hours a year of foregone time.",
+      "A community water pump inside the lane eliminates the collection walk. Two hours become thirty seconds.",
+      "Returned time redistributes across outside employment, more consistent schooling for daughters, and unpaid household work done more thoroughly.",
+    ],
+    faqs: TwoHourWalkFaqs,
+    body: <TwoHourWalkArticle />,
+  },
+  {
+    slug: "how-to-give-better-india-serious-donor-guide",
+    title:
+      "How to give better in India: a serious donor's guide to compounding your impact",
+    description:
+      "A practical guide for individual and family donors on how to structure charitable giving in India for higher impact. Covers restricted vs unrestricted giving, recurring vs one-time, concentrated vs spread, multi-year commitments, memorial and legacy giving, and family giving structures.",
+    excerpt:
+      "For most donors, giving well is not primarily a question of how much. It is a question of how. Here are the arrangements that compound.",
+    datePublished: "2026-09-29",
+    dateModified: "2026-09-29",
+    readingTime: "13 min read",
+    category: "Donor guide",
+    keywords: [
+      "how to give better India",
+      "strategic philanthropy India",
+      "how to donate more effectively India",
+      "recurring donation NGO India",
+      "memorial donation NGO India",
+      "legacy giving India",
+      "family giving India",
+      "high impact philanthropy India",
+      "multi-year donation NGO",
+      "restricted vs unrestricted grants India",
+    ],
+    keyTakeaways: [
+      "Choose the intervention type before you choose the organisation: physical assets, programmes, and unrestricted funding each serve different purposes.",
+      "Recurring donations are materially more valuable than one-time gifts of the same annual total because they let the NGO plan and commit.",
+      "Concentrated giving to one or two organisations produces higher impact per rupee than the same amount spread across many.",
+      "Multi-year commitments are worth more than they cost you, because they let the NGO commit to work that would not otherwise be viable.",
+      "Memorial and legacy giving works best when structured as a named contribution to a specific programme rather than as a general donation.",
+      "Ask hard questions before scaling up. A serious NGO will have thought about each of them.",
+    ],
+    faqs: GiveBetterFaqs,
+    body: <GiveBetterArticle />,
   },
 ];
 
