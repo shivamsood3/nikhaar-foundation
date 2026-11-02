@@ -3308,6 +3308,408 @@ const CsrTrends2027Faqs = [
   },
 ];
 
+const EducationCsrProjectsArticle = () => (
+  <>
+    <p>
+      Education is the single largest focus area for CSR spending in
+      India. Across listed companies subject to Section 135 of the
+      Companies Act, 2013, education typically absorbs the plurality of
+      annual CSR outlay, well ahead of health, environment, or rural
+      development. The reasons are structural: Schedule VII (ii)
+      attribution is unambiguous, the beneficiary story is intuitive,
+      and the sector has a mature set of implementing agencies capable
+      of absorbing large commitments.
+    </p>
+    <p>
+      This guide covers how to plan an education CSR portfolio in
+      India in 2027. It covers the main project types, cost bands,
+      credible impact metrics, the Delhi basti opportunity for
+      companies looking for visible local work, and what sets the
+      better education CSR portfolios apart from the forgettable ones.
+    </p>
+
+    <h2>Why education dominates Indian CSR</h2>
+    <p>
+      Three structural reasons.
+    </p>
+    <ul>
+      <li>
+        <strong>Scale of need.</strong> India has one of the largest
+        school going populations in the world, with persistent gaps in
+        learning outcomes, infrastructure, and access concentrated in
+        underserved urban and rural areas.
+      </li>
+      <li>
+        <strong>Clean Schedule VII attribution.</strong> Clause (ii)
+        covers "promoting education, including special education and
+        employment enhancing vocation skills, especially among
+        children." The attribution rarely becomes a debate.
+      </li>
+      <li>
+        <strong>Reporting intuition.</strong> Boards, employees, and
+        investors engage emotionally with education outcomes in a way
+        they do not always engage with other CSR verticals. The story
+        tells itself.
+      </li>
+    </ul>
+    <p>
+      These three strengths are also where the sector's weaknesses
+      live. Clean attribution plus intuitive reporting plus large
+      scale means education CSR is often where companies spend without
+      asking the hardest questions.
+    </p>
+
+    <h2>The main project types inside education CSR</h2>
+
+    <h3>School infrastructure</h3>
+    <p>
+      Classroom construction or refurbishment, library and laboratory
+      building, drinking water and sanitation at schools, boundary
+      walls, electrification, and furniture. Highest unit cost, most
+      visible outcomes, longest project cycle. Attribution under
+      Schedule VII (ii), with secondary attribution to (i) where
+      drinking water and sanitation are included.
+    </p>
+
+    <h3>Teacher training and capacity building</h3>
+    <p>
+      In-service teacher training, pedagogy workshops, subject
+      specific professional development, and school leadership
+      programmes. High leverage because each trained teacher reaches
+      several hundred students over their career. Clean (ii)
+      attribution.
+    </p>
+
+    <h3>Learning materials and digital content</h3>
+    <p>
+      Textbooks, workbooks, teaching aids, tablets, computer labs,
+      offline digital content, and educational technology deployments.
+      Variable per rupee impact depending on whether the materials
+      actually get used after delivery.
+    </p>
+
+    <h3>After-school and remedial programmes in underserved areas</h3>
+    <p>
+      Learning support, remedial classes, bridge programmes for
+      out-of-school children, and after-school enrichment delivered
+      inside the communities where the children live. This is the
+      space where small, Delhi focused implementing agencies tend to
+      do their strongest work.
+    </p>
+
+    <h3>Scholarships and fee support</h3>
+    <p>
+      Direct financial support to individual students for school,
+      college, or vocational education. Highest per-beneficiary cost,
+      but with the clearest counterfactual: a specific student stayed
+      in school who otherwise would not have.
+    </p>
+
+    <h3>Vocational and employment-linked skilling</h3>
+    <p>
+      Short term skilling programmes, trade specific vocational
+      training, apprenticeship enablement, and employment linked
+      programmes for school leavers and young adults. Attribution
+      under (ii) specifically for "employment enhancing vocation
+      skills."
+    </p>
+
+    <h3>Early childhood education</h3>
+    <p>
+      Anganwadi support, pre-primary classrooms, materials for early
+      years, and nutrition linked early learning. High leverage
+      because the returns to early intervention compound through
+      the entire school cycle.
+    </p>
+
+    <h3>Special education</h3>
+    <p>
+      Specialist infrastructure, materials, and teaching support for
+      children with disabilities or learning differences. Explicitly
+      called out in Schedule VII (ii). Specialist implementing
+      agencies required.
+    </p>
+
+    <h2>Typical cost bands</h2>
+    <p>
+      Order of magnitude bands based on Delhi and similar metro
+      contexts. Rural costs are typically lower per unit but higher
+      per beneficiary due to density.
+    </p>
+    <ul>
+      <li>
+        <strong>Classroom construction or major refurbishment.</strong>{" "}
+        Mid single to low double digit lakh range per classroom
+        depending on specification and ground conditions.
+      </li>
+      <li>
+        <strong>Teacher training programme.</strong> Low single lakhs
+        per cohort of 30 to 50 teachers for a well structured in
+        service programme over a few weekends.
+      </li>
+      <li>
+        <strong>Learning materials for a government school of 300
+        students.</strong> Low single lakhs for a full set of
+        age-appropriate materials and teaching aids.
+      </li>
+      <li>
+        <strong>Year of after-school learning support for 50
+        children in a basti.</strong> Low to mid single lakhs
+        depending on contact hours and material quality.
+      </li>
+      <li>
+        <strong>Scholarship for one child, school year.</strong> A
+        few tens of thousands of rupees to a lakh depending on
+        school type and included costs.
+      </li>
+      <li>
+        <strong>Short-term vocational cohort.</strong> Low single
+        lakhs per cohort of 20 to 40 trainees for a focused
+        skilling programme with placement support.
+      </li>
+    </ul>
+    <p>
+      A CSR implementing agency should give you costed line items at
+      proposal stage, not a round number. Materials, teacher honoraria,
+      venue, administration, and monitoring are the five lines you
+      should see broken out.
+    </p>
+
+    <h2>Credible metrics versus vanity metrics</h2>
+    <p>
+      Education CSR has more vanity metrics in circulation than any
+      other vertical. Boards are catching on. Pick metrics that will
+      survive a serious impact assessment.
+    </p>
+    <div className="my-8 overflow-x-auto">
+      <table className="w-full border-collapse text-left text-sm">
+        <thead>
+          <tr className="border-b border-line">
+            <th className="py-3 pr-4 font-semibold text-ink">Credible metric</th>
+            <th className="py-3 font-semibold text-ink">Vanity metric</th>
+          </tr>
+        </thead>
+        <tbody className="divide-y divide-line">
+          <tr>
+            <td className="py-3 pr-4">Attendance uplift at named schools, before and after</td>
+            <td className="py-3">Children "reached" through assembly talks</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4">Baseline-and-endline learning assessment on a validated instrument</td>
+            <td className="py-3">Hours of curriculum delivered</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4">Named children who returned to school after dropout</td>
+            <td className="py-3">Children "sensitised" or "exposed" to the programme</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4">Teachers whose practice visibly changed, by observation</td>
+            <td className="py-3">Teachers trained through completion of a workshop</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4">Classrooms operational one year after construction</td>
+            <td className="py-3">Classrooms built</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4">Vocational trainees in employment six months after course</td>
+            <td className="py-3">Vocational trainees who received certificates</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>The specific opportunity in Delhi's underserved settlements</h2>
+    <p>
+      Delhi has thousands of children living in bastis who attend
+      school intermittently, drop out early, or never enrol at all.
+      The reasons are not primarily motivational. They are structural:
+      distance to school, cost of materials, gender-linked household
+      responsibilities, and absence of adults in the household who can
+      support regular school attendance.
+    </p>
+    <p>
+      The interventions that work in this environment look nothing
+      like large infrastructure projects. They are small, repetitive,
+      and conducted inside the community where the children live. A
+      weekly learning session in a shared space. A painting
+      competition with a local institutional partner that gives
+      children a stage. A small welfare drive that signals continued
+      presence.
+    </p>
+    <p>
+      For a company willing to allocate a modest share of its CSR
+      obligation to a flagship project with visible outputs, this is
+      one of the highest impact-per-rupee education opportunities in
+      urban India. The challenge is not funding; it is finding the
+      implementing agency with the local relationships to deliver.
+    </p>
+
+    <h2>Case study: children's drives and the Delhi Police painting
+    competition</h2>
+    <p>
+      Our children's education and welfare programme runs small
+      learning drives inside Delhi's basti settlements, paired with
+      intermittent public ceremonies that create pride and
+      recognition for the children involved. The painting competition
+      we run in association with the Delhi Police is one such
+      programme. For the children, it is an occasion. For the
+      community, it is a visible institutional signal that these
+      children are not forgotten. For the implementing structure, it
+      is a repeatable model that CSR funding can underwrite at modest
+      per-event cost.
+    </p>
+    <p>
+      None of this costs much per child. All of it compounds. The
+      economics are closer to the water pump intervention than they
+      are to large school infrastructure projects. Modest, visible,
+      durable, and backed by a credible local partner.
+    </p>
+
+    <h2>How to size an education CSR commitment</h2>
+    <p>
+      Rough bands we have found useful.
+    </p>
+    <ul>
+      <li>
+        <strong>Under five lakh rupees.</strong> A year of after-school
+        learning support for 20 to 40 children in one basti, or a
+        series of three to five community competitions and welfare
+        drives, with named children on the attendance list.
+      </li>
+      <li>
+        <strong>Five to twenty-five lakh rupees.</strong> A larger
+        learning programme across two or three settlements, materials
+        for a government school, or a vocational cohort with
+        placement support.
+      </li>
+      <li>
+        <strong>Twenty-five lakh to one crore rupees.</strong> School
+        infrastructure refurbishment, teacher training at scale, or a
+        multi-year community education programme covering several
+        settlements.
+      </li>
+      <li>
+        <strong>Above one crore rupees.</strong> Classroom
+        construction, scholarship programme at scale, or
+        comprehensive school enrichment including infrastructure,
+        materials, teacher training, and community engagement.
+        Impact assessment mandatory under Section 135 if the company
+        meets the ten crore average obligation threshold.
+      </li>
+    </ul>
+
+    <h2>Red flags in education CSR</h2>
+    <ul>
+      <li>
+        Beneficiary counts that are suspiciously round or that cannot
+        be mapped to named schools or named children.
+      </li>
+      <li>
+        Pre-and-post assessment data from an instrument the
+        implementing agency designed itself without external
+        validation.
+      </li>
+      <li>
+        Classroom infrastructure handed over without an operational
+        maintenance arrangement, which tends to decay within three
+        years.
+      </li>
+      <li>
+        Scholarship programmes without a mechanism to confirm
+        continued enrolment after disbursement.
+      </li>
+      <li>
+        Teacher training programmes measured by attendance at the
+        workshop rather than observable change in classroom practice.
+      </li>
+      <li>
+        Vocational training measured by certification rather than
+        placement outcomes.
+      </li>
+    </ul>
+
+    <h2>How education pairs with other Schedule VII clauses</h2>
+    <ul>
+      <li>
+        <strong>Education and water.</strong> School drinking water
+        and sanitation installations pair naturally with academic
+        programmes and attribute cleanly to (i) and (ii) together.
+      </li>
+      <li>
+        <strong>Education and women's welfare.</strong> Interventions
+        that remove household burdens on older daughters (water
+        collection, child care for younger siblings) have a direct
+        secondary effect on school attendance for girls, strengthening
+        the (ii) story with a legitimate (iii) secondary.
+      </li>
+      <li>
+        <strong>Education and environment.</strong> Clean air and
+        awareness programmes can be delivered through schools as the
+        community touch point, with primary attribution to (iv) and
+        secondary to (ii) where curriculum integration happens.
+      </li>
+    </ul>
+    <p>
+      The companion piece on water conservation CSR covers the
+      economics of a water intervention in detail; see{" "}
+      <Link href="/blog/water-conservation-csr-projects-india">
+        water conservation CSR projects in India
+      </Link>
+      .
+    </p>
+
+    <h2>Where to start</h2>
+    <p>
+      For a Delhi focused education CSR commitment in the 2027-28
+      cycle, Nikhaar Foundation is a candidate implementing agency.
+      We are CSR-1 registered (CSR00107287), 12A and 80G registered
+      under the Income Tax Act, and our children's education and
+      welfare programme runs across multiple Delhi settlements. We
+      can supply a costed proposal for a specific intervention, the
+      full documentation pack for your CSR committee, and a project
+      scoped to deliver inside one financial quarter as a pilot.
+      Start on our{" "}
+      <Link href="/csr">CSR partnerships page</Link>, or if you are
+      building the broader procurement framework first, our{" "}
+      <Link href="/blog/how-to-pick-csr-implementing-agency-india">
+        guide to picking a CSR implementing agency in India
+      </Link>{" "}
+      is the one-reference piece.
+    </p>
+  </>
+);
+
+const EducationCsrProjectsFaqs = [
+  {
+    q: "What education projects qualify for CSR under Section 135?",
+    a: "Education projects qualify for CSR under Schedule VII (ii) of the Companies Act, 2013, which covers promoting education including special education and employment enhancing vocation skills, especially among children, women, elderly and the differently abled. Specific project types include school infrastructure, teacher training, learning materials and digital content, after school and remedial programmes, scholarships, vocational and skilling programmes, early childhood education, and special education.",
+  },
+  {
+    q: "How much does an education CSR project cost in India?",
+    a: "Costs vary by project type and geography. A year of after school learning support for 20 to 40 children in a basti typically runs in the low single lakhs. Classroom construction or major refurbishment runs in the mid single to low double digit lakh range per classroom. Teacher training for a cohort of 30 to 50 teachers typically runs in the low single lakhs. A scholarship for one child for a school year runs from a few tens of thousands to one lakh.",
+  },
+  {
+    q: "What metrics should we track for an education CSR project?",
+    a: "Track attendance uplift at named schools before and after, baseline and endline learning assessments on a validated external instrument, named children who returned to school after dropout, teachers whose practice visibly changed on observation, classrooms operational one year after construction, and vocational trainees in employment six months after course. Avoid activity-only metrics like children sensitised, workshops conducted, or certificates issued.",
+  },
+  {
+    q: "What is the highest impact education CSR intervention for Delhi's basti settlements?",
+    a: "In Delhi's underserved urban settlements, the highest impact per rupee tends to come from small, repetitive, community embedded interventions rather than large infrastructure. A weekly learning session in a shared space inside the basti, intermittent public ceremonies that create pride and recognition, and a visible institutional partnership tend to compound more effectively than classroom construction, because the barrier to education in this environment is structural rather than infrastructural.",
+  },
+  {
+    q: "Can we pair education CSR with other Schedule VII clauses?",
+    a: "Yes. Education pairs naturally with Schedule VII (i) through school drinking water and sanitation projects, with (iii) through interventions that remove household burdens on girls and improve attendance, and with (iv) through environment and awareness programmes delivered via schools. Where projects could legitimately map to multiple clauses, pick the primary clause and document secondary benefits separately rather than attributing formally to both.",
+  },
+  {
+    q: "Should we fund education CSR through a national implementing agency or a local one?",
+    a: "Both work. National implementing agencies offer scale and reputational safety. Local implementing agencies in a specific city or settlement offer higher impact per rupee, visible outcomes attributable to your spend, and faster responsiveness. For Delhi focused education CSR projects, a Delhi based implementing agency with established community relationships will typically outperform a national agency's Delhi vertical for an equivalent spend.",
+  },
+  {
+    q: "Is impact assessment mandatory for education CSR projects?",
+    a: "Impact assessment is mandatory under Rule 8 of the CSR Rules only when the company has an average CSR obligation of ten crore rupees or more over the three preceding financial years, and only for individual projects with outlays of one crore rupees or more completed at least one year before the assessment. Both conditions must be met. For projects below the thresholds, impact assessment is voluntary but is increasingly expected by sophisticated boards.",
+  },
+];
+
 export const posts: Post[] = [
   {
     slug: "how-to-donate-to-an-ngo-in-india-80g-tax-deduction",
@@ -3709,6 +4111,42 @@ export const posts: Post[] = [
     ],
     faqs: CsrTrends2027Faqs,
     body: <CsrTrends2027Article />,
+  },
+  {
+    slug: "education-csr-projects-india-schedule-vii-guide",
+    title:
+      "Education CSR projects in India: Schedule VII (ii) activities, delivery models, and metrics that survive scrutiny",
+    description:
+      "A guide for CSR heads on education projects under Section 135 of the Companies Act, 2013. Covers Schedule VII (ii) attribution, project types from school infrastructure to after school programmes to vocational skilling, typical cost bands, credible impact metrics vs vanity metrics, the Delhi basti opportunity, and portfolio sizing.",
+    excerpt:
+      "Education is the largest Indian CSR vertical, which means it is also where the hardest questions get asked least. Here is how to plan an education portfolio that stands up to a serious board.",
+    datePublished: "2026-11-02",
+    dateModified: "2026-11-02",
+    readingTime: "12 min read",
+    category: "CSR partnerships",
+    keywords: [
+      "education CSR projects India",
+      "CSR projects education",
+      "Schedule VII education activities",
+      "children education NGO Delhi",
+      "slum education Delhi",
+      "basti education India",
+      "underprivileged children education Delhi",
+      "children welfare NGO Delhi",
+      "education CSR partner India",
+      "school CSR projects India",
+      "vocational CSR India",
+      "early childhood CSR India",
+    ],
+    keyTakeaways: [
+      "Education is the single largest CSR vertical in India, which means it is also where boards get the shallowest reporting unless they insist otherwise.",
+      "Main project types span school infrastructure, teacher training, learning materials, after school programmes, scholarships, vocational skilling, early childhood, and special education.",
+      "Credible metrics are attendance uplift, validated learning assessments, dropouts returned, and placement outcomes. Avoid children sensitised, workshops conducted, and certificates issued.",
+      "In Delhi's bastis, small community embedded interventions tend to outperform large infrastructure for impact per rupee because the barrier is structural, not infrastructural.",
+      "Education pairs cleanly with Schedule VII (i) through school water, (iii) through gendered attendance effects, and (iv) through schools as community touchpoints.",
+    ],
+    faqs: EducationCsrProjectsFaqs,
+    body: <EducationCsrProjectsArticle />,
   },
 ];
 
