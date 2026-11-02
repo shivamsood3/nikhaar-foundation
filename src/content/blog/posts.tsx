@@ -2010,6 +2010,1304 @@ const GiveBetterFaqs = [
   },
 ];
 
+const ImplementingAgencyArticle = () => (
+  <>
+    <p>
+      A CSR implementing agency is the organisation that actually delivers
+      the work your company's Section 135 CSR spending pays for. Choosing
+      one well is the single highest leverage decision in a CSR cycle. A
+      good implementing agency makes the compliance paperwork easy, the
+      utilisation report credible, and the project visible in a way the
+      board can engage with. A bad one eats time, produces unverifiable
+      numbers, and quietly moves your committee toward the next partner.
+    </p>
+    <p>
+      This is a guide for CSR heads, Company Secretaries, and CSR committee
+      members on how to pick an implementing agency in India, how to run
+      due diligence, what to put in the MoU, and how to structure a pilot
+      project before scaling up. It assumes you already understand the
+      Section 135 framework; if not, start with our{" "}
+      <Link href="/blog/csr-rules-india-section-135-schedule-vii-csr-2-guide">
+        guide to CSR rules in India
+      </Link>
+      .
+    </p>
+
+    <h2>What a good implementing agency actually looks like</h2>
+    <p>
+      Stripped of marketing language, an implementing agency that is worth
+      a multi-year partnership shares five characteristics.
+    </p>
+    <ul>
+      <li>
+        <strong>Fully compliant on paper.</strong> CSR-1 registered with
+        the Ministry of Corporate Affairs, 12A and 80G registered under
+        the Income Tax Act, 1961, and all documents available on request
+        within a working day.
+      </li>
+      <li>
+        <strong>Working in named places on named problems.</strong> The
+        organisation can tell you the exact settlement, school, or lane
+        where your money would go. Not a district, not a state.
+      </li>
+      <li>
+        <strong>A short chain of custody between money and ground.</strong>{" "}
+        The fewer intermediaries, the more each rupee buys. Larger
+        implementing agencies tend to subcontract; smaller ones tend to
+        deliver directly.
+      </li>
+      <li>
+        <strong>A named human you can call.</strong> Not a general inbox.
+        A person who replies within two working days and is answerable
+        for the delivery.
+      </li>
+      <li>
+        <strong>Reporting that distinguishes activity from outcome.</strong>{" "}
+        A credible report tells you what the intervention was and how many
+        people it reached. It does not inflate outputs into speculative
+        downstream outcomes it did not measure.
+      </li>
+    </ul>
+    <p>
+      Everything else is secondary. Awards, celebrity patrons, slick
+      annual reports, and large office spaces tell you nothing about
+      delivery quality.
+    </p>
+
+    <h2>The three stages of selection</h2>
+    <p>
+      A clean implementing agency selection process has three distinct
+      stages. Skipping the middle stage is the most common procurement
+      mistake in Indian CSR.
+    </p>
+    <h3>Stage one: shortlist</h3>
+    <p>
+      Build a shortlist of three to six implementing agencies that match
+      your focus area and geography. Sources for the shortlist include
+      the MCA's CSR portal (public register of CSR-1 registered
+      agencies), peer referrals from other CSR heads in your sector, and
+      organisations with a track record in the specific Schedule VII
+      clause you want to spend against.
+    </p>
+    <p>
+      At shortlist stage, you only need enough information to decide
+      whether an organisation is worth a thirty minute conversation.
+      Public website, registration numbers, and the past year's
+      programme reports are sufficient.
+    </p>
+    <h3>Stage two: due diligence</h3>
+    <p>
+      For every shortlisted agency, run proper due diligence. Request the
+      documentation pack (listed below). Have a one-hour conversation
+      with the leadership. If possible, visit the ground. Talk to one or
+      two existing donors.
+    </p>
+    <p>
+      This is the stage most CSR teams compress or skip. The cost of
+      doing it well is a few days of your time. The cost of skipping it
+      is a year of a weak partnership.
+    </p>
+    <h3>Stage three: pilot</h3>
+    <p>
+      Rather than signing a multi-year MoU on first contact, start with a
+      bounded pilot project. One quarter, one specific deliverable, one
+      specific location, one specific utilisation report. If the pilot
+      goes well, scale up. If it does not, you have learned something at
+      low cost.
+    </p>
+
+    <h2>The due diligence documentation pack to request</h2>
+    <p>
+      A serious implementing agency sends all of this in the first email
+      without being chased. Request:
+    </p>
+    <ul>
+      <li>CSR-1 certificate from the Ministry of Corporate Affairs</li>
+      <li>Section 12A registration certificate</li>
+      <li>Section 80G registration certificate with the sixteen digit URN</li>
+      <li>PAN card of the organisation</li>
+      <li>Cancelled cheque for the CSR bank account</li>
+      <li>Memorandum and Articles, or Trust Deed, depending on form</li>
+      <li>Last three years of audited financial statements</li>
+      <li>Last two years of programme reports with photographs and locations</li>
+      <li>CV or background of the founder and key staff</li>
+      <li>List of CSR partners from the last two years with contact details</li>
+      <li>Draft project proposal for your intended spend, with costed line items</li>
+    </ul>
+    <p>
+      If any item takes more than two working days to arrive, this is a
+      signal.
+    </p>
+
+    <h2>Small versus large implementing agencies: honest tradeoffs</h2>
+    <p>
+      One of the most consequential decisions you make at shortlist stage
+      is whether to go with a large, nationally recognised implementing
+      agency or a smaller, locally focused one. Both routes have real
+      merits. The honest comparison looks like this.
+    </p>
+    <div className="my-8 overflow-x-auto">
+      <table className="w-full border-collapse text-left text-sm">
+        <thead>
+          <tr className="border-b border-line">
+            <th className="py-3 pr-4 font-semibold text-ink">Dimension</th>
+            <th className="py-3 pr-4 font-semibold text-ink">Large agency</th>
+            <th className="py-3 font-semibold text-ink">Small agency</th>
+          </tr>
+        </thead>
+        <tbody className="divide-y divide-line">
+          <tr>
+            <td className="py-3 pr-4 font-medium text-ink">Reputation risk</td>
+            <td className="py-3 pr-4">Low. Known names, easy to defend to board.</td>
+            <td className="py-3">Higher. Requires more diligence effort.</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4 font-medium text-ink">Scale</td>
+            <td className="py-3 pr-4">Can absorb large commitments easily.</td>
+            <td className="py-3">Capped by delivery capacity; needs honest sizing.</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4 font-medium text-ink">Impact per rupee</td>
+            <td className="py-3 pr-4">Diluted by overhead layers.</td>
+            <td className="py-3">High. Short chain of custody.</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4 font-medium text-ink">Visibility of your spend</td>
+            <td className="py-3 pr-4">Rolled into aggregate programme reports.</td>
+            <td className="py-3">Named settlement, named outcome, your spend visible.</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4 font-medium text-ink">Access to leadership</td>
+            <td className="py-3 pr-4">Via account manager.</td>
+            <td className="py-3">Direct, usually to the founder.</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4 font-medium text-ink">Flexibility on scope</td>
+            <td className="py-3 pr-4">Low. Standardised programmes.</td>
+            <td className="py-3">High. Project scoped to your preferences.</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4 font-medium text-ink">Response time</td>
+            <td className="py-3 pr-4">Formal, slower.</td>
+            <td className="py-3">Fast, often same day.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      Many well-run CSR portfolios use both. A large implementing agency
+      for the bulk of the obligation that needs no debate, and a small
+      implementing agency for the project the board wants to be able to
+      point at.
+    </p>
+
+    <h2>Red flags to walk away from</h2>
+    <ul>
+      <li>
+        Reluctance to send the CSR-1 certificate or audited financials.
+      </li>
+      <li>
+        Programme reports that read the same across multiple years, or
+        across multiple corporate donors.
+      </li>
+      <li>
+        Beneficiary numbers that are suspiciously round or grow linearly
+        year over year without explanation.
+      </li>
+      <li>
+        A fixed menu of standardised programmes with no willingness to
+        scope to your focus area.
+      </li>
+      <li>
+        Pressure to commit to a multi-year MoU before a pilot has been
+        run.
+      </li>
+      <li>
+        Direct ask for an advance of more than one quarter of the project
+        value.
+      </li>
+      <li>
+        Reports that confuse activity (workshops run, flyers distributed)
+        with outcome (people reached, assets installed).
+      </li>
+      <li>
+        Any statement that the implementing agency can book the
+        contribution to multiple Schedule VII clauses as needed.
+      </li>
+    </ul>
+
+    <h2>Structuring the MoU</h2>
+    <p>
+      The MoU for a CSR implementation project should be short, specific,
+      and easy for your Company Secretary to defend. The clauses that
+      matter most are:
+    </p>
+    <ul>
+      <li>
+        <strong>Scope.</strong> Named intervention, named location, named
+        beneficiary estimate, named Schedule VII clause attribution.
+      </li>
+      <li>
+        <strong>Budget.</strong> Costed line items, not a round number.
+      </li>
+      <li>
+        <strong>Disbursement.</strong> Tranche-based release linked to
+        milestones, not a single advance.
+      </li>
+      <li>
+        <strong>Utilisation reporting.</strong> Format, frequency, and the
+        exact fields your Company Secretary needs for the Annual Report
+        on CSR and Form CSR-2.
+      </li>
+      <li>
+        <strong>Audit rights.</strong> Right of your finance team or an
+        appointed independent agency to audit utilisation.
+      </li>
+      <li>
+        <strong>Site access.</strong> Right of CSR team members to visit
+        the project site with reasonable notice.
+      </li>
+      <li>
+        <strong>Branding.</strong> Any permissible use of your corporate
+        name or logo in beneficiary-facing materials.
+      </li>
+      <li>
+        <strong>Termination.</strong> A clean exit clause with pro-rata
+        settlement.
+      </li>
+    </ul>
+
+    <h2>How to structure the pilot project</h2>
+    <p>
+      A good pilot is bounded, visible, and finite. For a water
+      conservation project, that might be a single community water pump
+      installation in a specific settlement with a specific household
+      count. For an education project, a single learning drive run over
+      three weekends in a specific basti with a specific attendance
+      target.
+    </p>
+    <p>
+      The pilot should fit within one financial quarter so you have a
+      complete utilisation report before the next CSR committee meeting.
+      Do not approve a pilot where the deliverable will not resolve
+      within three months.
+    </p>
+
+    <h2>Common procurement mistakes</h2>
+    <ol>
+      <li>
+        <strong>Picking a partner from a single conversation.</strong>{" "}
+        First impressions are not a sampling method. Due diligence
+        exists for a reason.
+      </li>
+      <li>
+        <strong>Not visiting the ground.</strong> A site visit catches
+        more than a document review. Make time for one.
+      </li>
+      <li>
+        <strong>Overweighting brand.</strong> Known names reduce
+        reputational risk but do not necessarily increase delivery.
+      </li>
+      <li>
+        <strong>Committing multi-year on first project.</strong> Pilot
+        first. Scale only on evidence.
+      </li>
+      <li>
+        <strong>Signing an MoU with generic utilisation reporting.</strong>{" "}
+        Insist on fields your Company Secretary actually needs for
+        CSR-2.
+      </li>
+      <li>
+        <strong>Ignoring the local option.</strong> A small Delhi
+        implementing agency for a Delhi project will almost always
+        outperform a national agency with a Delhi vertical.
+      </li>
+    </ol>
+
+    <h2>Where Nikhaar Foundation sits in a shortlist</h2>
+    <p>
+      Nikhaar Foundation is a Delhi-based implementing agency focused on
+      water conservation, clean air, and children's welfare in the
+      city's underserved settlements. We are CSR-1 registered
+      (CSR00107287), 12A and 80G registered, and we work with the Delhi
+      Police on multiple campaigns. Our programmes map to Schedule VII
+      (i), (ii), and (iv).
+    </p>
+    <p>
+      If you are shortlisting implementing agencies for a Delhi focused
+      CSR commitment, you are welcome to put us on the list and run us
+      through the diligence framework above. Start on our{" "}
+      <Link href="/csr">CSR partnerships page</Link> or write to
+      info@nikhaarfoundation.org for the full documentation pack and a
+      costed pilot proposal.
+    </p>
+  </>
+);
+
+const ImplementingAgencyFaqs = [
+  {
+    q: "What is a CSR implementing agency in India?",
+    a: "A CSR implementing agency is a non-profit organisation (a registered public trust, registered society, or Section 8 company) that executes CSR projects on behalf of a company subject to Section 135 of the Companies Act, 2013. The implementing agency must be CSR-1 registered with the Ministry of Corporate Affairs and hold valid 12A and 80G registrations under the Income Tax Act, 1961.",
+  },
+  {
+    q: "How do I select the right CSR implementing agency for my company?",
+    a: "Run a three stage process. Shortlist three to six agencies that match your focus area and geography. For each, request the full documentation pack (CSR-1, 12A, 80G, PAN, audited financials, programme reports, past donor list) and have an hour-long conversation with leadership. Before a multi-year MoU, run a bounded pilot project within one financial quarter.",
+  },
+  {
+    q: "Should we pick a large or small CSR implementing agency?",
+    a: "Both have merits. Large implementing agencies offer reputational safety and can absorb large commitments without strain. Small implementing agencies offer higher impact per rupee, more visible outcomes, direct access to leadership, and flexibility on scope. Many well-run CSR portfolios use both, with a large agency for bulk compliance and a small agency for a visible flagship project.",
+  },
+  {
+    q: "What documentation should I ask a CSR implementing agency for?",
+    a: "CSR-1 certificate, 12A and 80G certificates with the 80G URN, PAN, cancelled cheque for the CSR bank account, Memorandum and Articles or Trust Deed, last three years of audited financials, last two years of programme reports with photographs and locations, founder and key staff backgrounds, past CSR partner contacts, and a costed draft proposal for your intended spend.",
+  },
+  {
+    q: "What should a CSR MoU include?",
+    a: "A good CSR MoU specifies the scope (named intervention, location, beneficiary count, Schedule VII clause), the costed budget, tranche-based disbursement linked to milestones, utilisation reporting format and frequency with the fields your Company Secretary needs for CSR-2, audit rights, site access rights for the CSR team, branding permissions, and a clean termination clause with pro-rata settlement.",
+  },
+  {
+    q: "How long should a CSR pilot project be?",
+    a: "A good CSR pilot project fits within one financial quarter so you have a complete utilisation report before the next CSR committee meeting. Pick a bounded, visible deliverable such as a single community water pump installation or a single education drive series, with a specific location and beneficiary count. Scale up only on evidence from the pilot.",
+  },
+  {
+    q: "Can a CSR implementing agency be based outside the project location?",
+    a: "Yes, but for a Delhi focused project, a Delhi based implementing agency will almost always outperform a national agency with a Delhi vertical. Chain of custody is shorter, response time is faster, and site visits are easier. Prefer local where local exists at acceptable quality.",
+  },
+];
+
+const WaterCsrProjectsArticle = () => (
+  <>
+    <p>
+      Water conservation is one of the strongest focus areas for CSR
+      spending in India. The need is immediate and visible, the
+      interventions have measurable physical outputs, Schedule VII
+      coverage is unambiguous under clauses (i) and (iv), and the
+      beneficiary story reports cleanly to boards and auditors alike.
+      This article covers the main project types inside the water
+      conservation CSR space, the typical cost bands for each, how to
+      pick metrics that will survive an impact assessment, and how to
+      position a water portfolio against your Schedule VII obligations.
+    </p>
+    <p>
+      It is written for CSR heads, Company Secretaries, and sustainability
+      leaders deciding where to allocate the water portion of their
+      Section 135 spending.
+    </p>
+
+    <h2>Why water is a strong CSR focus area</h2>
+    <p>
+      Four structural reasons.
+    </p>
+    <ul>
+      <li>
+        <strong>Visible outcomes.</strong> Water projects have physical
+        outputs that photograph well, are easy to count, and remain
+        visible for years.
+      </li>
+      <li>
+        <strong>Clean Schedule VII attribution.</strong> Clause (i) covers
+        safe drinking water, sanitation, and hygiene. Clause (iv) covers
+        environmental sustainability and quality of water. Attribution
+        rarely becomes a debate.
+      </li>
+      <li>
+        <strong>Bounded unit costs.</strong> A community water pump has a
+        clear price. Rainwater harvesting at a school has a clear price.
+        Budget planning is unambiguous.
+      </li>
+      <li>
+        <strong>Durable benefit.</strong> A well-installed water asset
+        continues delivering value for a decade with modest maintenance.
+      </li>
+    </ul>
+
+    <h2>The main project types inside water conservation CSR</h2>
+    <h3>Community water pumps in urban settlements</h3>
+    <p>
+      A pump installed inside a dense settlement and handed over to
+      residents. Each pump typically serves between five hundred and
+      three thousand people. Our{" "}
+      <Link href="/blog/economics-of-a-community-water-pump-delhi-basti">
+        detailed piece on community water pump economics
+      </Link>{" "}
+      covers the costs, per-beneficiary math, and maintenance structure.
+      Schedule VII (i) attribution.
+    </p>
+    <h3>Rainwater harvesting at schools and public buildings</h3>
+    <p>
+      Rooftop or ground-level rainwater harvesting systems that capture
+      and store rain for sanitation and non-potable use. Common at
+      government schools, Anganwadi centres, and primary health centres.
+      Attribution under Schedule VII (iv), with secondary attribution to
+      (i) where the installation supports drinking water indirectly.
+    </p>
+    <h3>Borewell refurbishment and recharge</h3>
+    <p>
+      Repair or deepening of existing non-functional borewells in rural
+      and peri-urban areas, often paired with recharge wells that put
+      stormwater back into the aquifer. Attribution under (i) when
+      drinking water, (iv) when conservation focused.
+    </p>
+    <h3>Safe drinking water for schools</h3>
+    <p>
+      Water purification systems installed in government schools,
+      typically paired with maintenance contracts for one to three years
+      after installation. Attribution under (i), with partial under (ii)
+      for the education angle.
+    </p>
+    <h3>Water audits and awareness campaigns</h3>
+    <p>
+      Education campaigns for households, residential welfare
+      associations, and small businesses on water conservation
+      behaviour. Lower per-rupee impact than physical interventions but
+      useful as a wrapper around a hardware deployment. Attribution
+      under (iv).
+    </p>
+    <h3>Lake and water body restoration</h3>
+    <p>
+      Larger projects covering clearing, desilting, bund restoration,
+      and ecological rehabilitation of urban or peri-urban water bodies.
+      High visibility, higher unit cost, longer project cycle.
+      Attribution under (iv).
+    </p>
+
+    <h2>Typical cost bands</h2>
+    <p>
+      Costs vary by geography and specifications. These are order of
+      magnitude bands based on Delhi and similar metro contexts.
+    </p>
+    <ul>
+      <li>
+        <strong>Community water pump installation (one unit).</strong>{" "}
+        Within a small single lakh range for an urban settlement
+        installation, inclusive of survey, hardware, plumbing, civil
+        work, and handover.
+      </li>
+      <li>
+        <strong>Rainwater harvesting at a mid-sized school.</strong>{" "}
+        Typically in the mid single to low double digit lakh range for a
+        complete rooftop system with storage.
+      </li>
+      <li>
+        <strong>Borewell refurbishment.</strong> Highly variable, from a
+        small lakh single-digit figure for a shallow repair to several
+        lakhs for a deeper refurbishment or recharge well installation.
+      </li>
+      <li>
+        <strong>School drinking water system with maintenance.</strong>{" "}
+        A few lakhs for installation plus a modest annual maintenance
+        provision.
+      </li>
+      <li>
+        <strong>Awareness campaign for a neighbourhood.</strong> Low
+        single lakhs for a season of concerted work with proper branding
+        and reach measurement.
+      </li>
+      <li>
+        <strong>Water body restoration.</strong> Multi-crore for a mid
+        sized urban water body depending on scope.
+      </li>
+    </ul>
+    <p>
+      A CSR implementing agency should give you costed line items at
+      proposal stage, not a round number.
+    </p>
+
+    <h2>Credible metrics versus vanity metrics</h2>
+    <p>
+      This is where most water CSR reporting goes off the rails. Boards
+      are increasingly sophisticated and auditors increasingly careful.
+      Pick metrics that will survive scrutiny.
+    </p>
+    <div className="my-8 overflow-x-auto">
+      <table className="w-full border-collapse text-left text-sm">
+        <thead>
+          <tr className="border-b border-line">
+            <th className="py-3 pr-4 font-semibold text-ink">Credible metric</th>
+            <th className="py-3 font-semibold text-ink">Vanity metric</th>
+          </tr>
+        </thead>
+        <tbody className="divide-y divide-line">
+          <tr>
+            <td className="py-3 pr-4">People served by installed assets, by named location</td>
+            <td className="py-3">People reached by campaign impressions</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4">Litres of water delivered per day by installed infrastructure</td>
+            <td className="py-3">Litres of water saved (extrapolated)</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4">Number of community water pumps installed and operational</td>
+            <td className="py-3">Water conservation workshops conducted</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4">Rainwater harvesting capacity installed in litres per year</td>
+            <td className="py-3">Trees planted in watershed areas</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4">Households with piped water for the first time, by name</td>
+            <td className="py-3">Beneficiaries sensitised</td>
+          </tr>
+          <tr>
+            <td className="py-3 pr-4">Operational uptime of installed assets after one year</td>
+            <td className="py-3">Impact score on a self-designed index</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      If your implementing agency pushes vanity metrics, pull back to
+      the credible column. If they cannot work in the credible column,
+      pick a different implementing agency.
+    </p>
+
+    <h2>How to combine water with other Schedule VII clauses</h2>
+    <p>
+      Water projects pair naturally with education and environmental
+      programmes. Several routes work well.
+    </p>
+    <ul>
+      <li>
+        <strong>Water plus education.</strong> School drinking water
+        systems serve Schedule VII (i) and (ii). Rainwater harvesting at
+        a school can be combined with a water conservation curriculum.
+      </li>
+      <li>
+        <strong>Water plus air.</strong> Community water installations
+        can be paired with neighbourhood cleanliness or clean air drives
+        under Schedule VII (iv), running a single community engagement
+        cycle for both.
+      </li>
+      <li>
+        <strong>Water plus women's welfare.</strong> Interventions that
+        reduce the household water collection burden, which falls almost
+        entirely on women, have a legitimate secondary attribution under
+        Schedule VII (iii). This is a strong angle to raise with your
+        CSR committee if gender is a reporting priority.
+      </li>
+    </ul>
+
+    <h2>Case study: a community water pump in Kasturba Nagar</h2>
+    <p>
+      We funded, installed, and handed over a community water pump at
+      Indira Gandhi Camp in Kasturba Nagar, Delhi. Around 3,000 people
+      now have water at their doorstep. The installation was bounded in
+      cost, bounded in time, and the asset remains with the residents.
+      The pump is attributed to Schedule VII (i) with a documented
+      secondary benefit on household time, most of which falls to women.
+    </p>
+    <p>
+      The full case is in our{" "}
+      <Link href="/impact">impact page</Link> and the economics are
+      detailed in our{" "}
+      <Link href="/blog/economics-of-a-community-water-pump-delhi-basti">
+        community water pump economics
+      </Link>{" "}
+      piece. For a CSR committee, this is the kind of intervention that
+      reports cleanly: one named settlement, one physical asset, one
+      countable beneficiary figure, one Schedule VII attribution.
+    </p>
+
+    <h2>How to size a water CSR commitment</h2>
+    <p>
+      Rough bands we have found useful for conversations with CSR
+      committees.
+    </p>
+    <ul>
+      <li>
+        <strong>Under ten lakh rupees.</strong> A single community water
+        pump in an urban settlement, or a small rainwater harvesting
+        system at one school. One deliverable, one quarter, one report.
+      </li>
+      <li>
+        <strong>Ten to fifty lakh rupees.</strong> A cluster of three to
+        five pumps or school installations across named locations in one
+        city. Multi-location visibility, one unified utilisation report.
+      </li>
+      <li>
+        <strong>Fifty lakh to two crore rupees.</strong> A multi-year
+        programme covering a dozen or more installations plus awareness
+        wrapper, with annual impact assessment and a mid-year review.
+      </li>
+      <li>
+        <strong>Above two crore rupees.</strong> Multi-geography
+        programme, impact assessment mandatory under Section 135, and
+        structured as a three-year commitment with a dedicated programme
+        manager.
+      </li>
+    </ul>
+
+    <h2>Where to start</h2>
+    <p>
+      If water is on your CSR plan for the next cycle and Delhi is a
+      geography you want visibility in, Nikhaar Foundation is a
+      candidate implementing agency. We are CSR-1 registered
+      (CSR00107287), 12A and 80G registered, and our water conservation
+      programme has delivered the Indira Gandhi Camp installation among
+      others. Start on our{" "}
+      <Link href="/csr">CSR partnerships page</Link> or ask for a costed
+      pilot proposal. If you would rather first understand how to pick
+      implementing agencies in general, start with our{" "}
+      <Link href="/blog/how-to-pick-csr-implementing-agency-india">
+        guide to picking CSR implementing agencies in India
+      </Link>
+      .
+    </p>
+  </>
+);
+
+const WaterCsrProjectsFaqs = [
+  {
+    q: "What water conservation projects qualify for CSR under Section 135?",
+    a: "Water conservation CSR projects qualify under Schedule VII (i) which covers safe drinking water, sanitation, and hygiene, and Schedule VII (iv) which covers environmental sustainability and quality of water. Specific project types include community water pumps in urban settlements, rainwater harvesting at schools and public buildings, borewell refurbishment, school drinking water systems, awareness campaigns, and water body restoration.",
+  },
+  {
+    q: "How much does a water conservation CSR project cost in India?",
+    a: "Costs vary by project type and geography. A single community water pump installation in a Delhi settlement typically falls in the low single lakh range. A rainwater harvesting system at a mid-sized school runs in the mid single to low double digit lakh range. Water body restoration can run into multiple crores. A CSR implementing agency should provide costed line items at proposal stage.",
+  },
+  {
+    q: "What metrics should we track for a water CSR project?",
+    a: "Track people served by installed assets at named locations, litres of water delivered per day by installed infrastructure, number of pumps or systems installed and operational, rainwater harvesting capacity in litres per year, households with piped water for the first time, and operational uptime of installed assets after one year. Avoid impression based metrics, extrapolated savings, and self-designed impact scores.",
+  },
+  {
+    q: "Can water CSR projects count under multiple Schedule VII clauses?",
+    a: "The primary attribution should be a single Schedule VII clause (typically (i) for drinking water or (iv) for environmental sustainability) with clear internal documentation. A secondary benefit may be noted, for example on women's time saved for Schedule VII (iii), but split formal attribution across multiple clauses tends to attract auditor attention and is best avoided.",
+  },
+  {
+    q: "Should we fund one large water project or multiple small ones?",
+    a: "Both work. One large project is easier to govern and reports more cleanly in the annual report on CSR. A cluster of small projects across named locations gives you broader visibility and lower per-project risk. Many CSR teams split water commitments across two or three implementing agencies to combine both approaches.",
+  },
+  {
+    q: "How long does a water conservation CSR project take to deliver?",
+    a: "A single community water pump installation typically takes four to eight weeks from site survey to handover. A rainwater harvesting system at a school takes six to twelve weeks. A multi-site cluster programme is typically structured as a six to twelve month engagement. Water body restoration projects run eighteen months to three years.",
+  },
+  {
+    q: "Can my company fund a Delhi water conservation project under CSR?",
+    a: "Yes. Delhi water conservation projects qualify under Section 135 of the Companies Act, 2013 subject to the usual conditions on implementing agency selection. Nikhaar Foundation is a Delhi based CSR-1 registered implementing agency (CSR00107287) focused on water conservation in the city's underserved settlements, and can provide a costed proposal and the full documentation pack.",
+  },
+];
+
+const CsrImpactAssessmentArticle = () => (
+  <>
+    <p>
+      CSR impact assessment is a formal evaluation of CSR project
+      outcomes, conducted by an independent agency, reported to the
+      board, and disclosed in the annual report on CSR. For companies
+      with a large CSR obligation, impact assessment is a statutory
+      requirement under the Companies (Corporate Social Responsibility
+      Policy) Rules, 2014 as amended. For companies below the threshold,
+      impact assessment is voluntary but is increasingly expected by
+      sophisticated boards and investors.
+    </p>
+    <p>
+      This guide covers when impact assessment is mandatory, who can
+      conduct it, what the report must contain, how to scope the terms
+      of reference, how long the process takes, what it typically costs,
+      and how to integrate the findings into your annual CSR disclosure.
+    </p>
+
+    <h2>When CSR impact assessment is mandatory</h2>
+    <p>
+      Two thresholds must be met simultaneously for mandatory impact
+      assessment under Rule 8 of the CSR Rules:
+    </p>
+    <ol>
+      <li>
+        <strong>Company level threshold.</strong> The company must have
+        an average CSR obligation of ten crore rupees or more in the
+        three immediately preceding financial years.
+      </li>
+      <li>
+        <strong>Project level threshold.</strong> Impact assessment
+        applies only to CSR projects with outlays of one crore rupees or
+        more that have been completed not less than one year before the
+        undertaking of the impact study.
+      </li>
+    </ol>
+    <p>
+      Both conditions must be true. A company with a two crore average
+      CSR obligation does not need to impact-assess, even if it has a
+      five crore project. A company with a fifty crore CSR obligation
+      does not need to impact-assess projects with outlays under one
+      crore.
+    </p>
+    <p>
+      Companies below both thresholds are not required to conduct
+      impact assessment, but many are now doing so voluntarily for
+      material projects, both for internal learning and for board
+      reporting quality.
+    </p>
+
+    <h2>Expenditure on impact assessment: what is allowed</h2>
+    <p>
+      Impact assessment expenditure can be booked as CSR spending
+      subject to a cap. The expenditure cannot exceed two per cent of
+      the total CSR expenditure for that financial year or fifty lakh
+      rupees, whichever is higher. This treatment is specifically
+      allowed under the amended CSR Rules.
+    </p>
+    <p>
+      In practice, this means a company spending twenty crore on CSR
+      annually can book up to fifty lakh of impact assessment spending
+      without exceeding the cap, since fifty lakh is higher than two
+      per cent of twenty crore. A company spending five hundred crore
+      on CSR annually can book up to ten crore (two per cent) in impact
+      assessment.
+    </p>
+
+    <h2>Who can conduct a CSR impact assessment</h2>
+    <p>
+      The Rules require the impact assessment to be conducted by an
+      independent agency. There is no formal accreditation list, but
+      the agency should be:
+    </p>
+    <ul>
+      <li>
+        <strong>Independent.</strong> No conflict of interest with
+        either the company or the implementing agency. Typically a
+        separate specialist firm.
+      </li>
+      <li>
+        <strong>Capable.</strong> With a demonstrable track record in
+        development evaluation, impact measurement, or related
+        disciplines.
+      </li>
+      <li>
+        <strong>Credentialed.</strong> Common choices include specialist
+        development consulting firms, Big Four advisory arms, academic
+        institutions, and recognised evaluation groups.
+      </li>
+      <li>
+        <strong>Methodologically transparent.</strong> Able to describe
+        the evaluation framework (OECD-DAC, theory of change, outcome
+        mapping, or similar) they will use.
+      </li>
+    </ul>
+    <p>
+      The agency should be appointed by the company, not by the
+      implementing agency.
+    </p>
+
+    <h2>What goes in the impact assessment report</h2>
+    <p>
+      A sound impact assessment report covers:
+    </p>
+    <ul>
+      <li>
+        <strong>Project background.</strong> Scope, location, duration,
+        budget, implementing agency, and intended beneficiaries.
+      </li>
+      <li>
+        <strong>Methodology.</strong> Evaluation framework, data
+        collection approach, sample size, limitations.
+      </li>
+      <li>
+        <strong>Relevance.</strong> Alignment with Schedule VII, local
+        needs, and company CSR policy.
+      </li>
+      <li>
+        <strong>Effectiveness.</strong> Extent to which the project
+        achieved its stated objectives.
+      </li>
+      <li>
+        <strong>Efficiency.</strong> Cost per beneficiary, cost per
+        unit of output, comparison with alternatives where available.
+      </li>
+      <li>
+        <strong>Impact.</strong> The actual change produced in the
+        lives of beneficiaries, distinguishing from activities and
+        outputs.
+      </li>
+      <li>
+        <strong>Sustainability.</strong> Whether the benefit continues
+        after the project ends, who bears maintenance responsibility,
+        and what could cause the benefit to decay.
+      </li>
+      <li>
+        <strong>Recommendations.</strong> For the next cycle of similar
+        projects.
+      </li>
+    </ul>
+    <p>
+      The report is placed before the board, disclosed on the company's
+      website, and summarised in the annual report on CSR in the
+      Board's Report.
+    </p>
+
+    <h2>How to scope the terms of reference</h2>
+    <p>
+      The ToR you issue to the impact assessment agency is the single
+      most important governance document in this process. A tight ToR
+      produces a tight report. A loose ToR produces a reputation-safe
+      marketing document.
+    </p>
+    <p>
+      A good CSR impact assessment ToR includes:
+    </p>
+    <ol>
+      <li>
+        Project(s) in scope, with budget, duration, and implementing
+        agency named.
+      </li>
+      <li>
+        Specific evaluation questions the board wants answered.
+      </li>
+      <li>
+        Preferred methodology (or a requirement for the agency to
+        propose one).
+      </li>
+      <li>
+        Access requirements including beneficiary interviews, site
+        visits, and document review.
+      </li>
+      <li>
+        Deliverables: draft report, final report, executive summary,
+        board presentation.
+      </li>
+      <li>
+        Timeline with milestones.
+      </li>
+      <li>
+        Independence declaration and conflict of interest check.
+      </li>
+      <li>
+        Budget and payment schedule tranche-linked to deliverables.
+      </li>
+    </ol>
+    <p>
+      A board-ready impact assessment typically takes eight to sixteen
+      weeks end to end from ToR issuance to final report. Allow longer
+      for multi-location programmes.
+    </p>
+
+    <h2>Typical cost of a CSR impact assessment</h2>
+    <p>
+      Cost scales with the number of projects in scope, geographies
+      covered, beneficiary sample size, and the agency selected. Rough
+      bands for a single-geography assessment:
+    </p>
+    <ul>
+      <li>
+        <strong>Small specialist firm.</strong> Four to twelve lakh
+        rupees for a focused evaluation of one or two projects.
+      </li>
+      <li>
+        <strong>Mid-sized consulting firm.</strong> Ten to thirty lakh
+        rupees for a programme-level assessment covering multiple
+        projects.
+      </li>
+      <li>
+        <strong>Big Four advisory.</strong> Fifteen lakh to a crore and
+        above, depending on scope and recognition value for the board.
+      </li>
+      <li>
+        <strong>Academic institution.</strong> Five to twenty lakh,
+        slower timelines, stronger methodological rigour.
+      </li>
+    </ul>
+
+    <h2>Common findings and what boards actually want to see</h2>
+    <p>
+      In our experience sitting on both sides of impact assessment
+      processes, boards tend to care most about three things:
+    </p>
+    <ol>
+      <li>
+        <strong>Was the project delivered as scoped.</strong> Did the
+        implementation match the plan.
+      </li>
+      <li>
+        <strong>What is the per-beneficiary cost, and does it
+        compare reasonably to alternatives.</strong> Boards are
+        increasingly cost conscious.
+      </li>
+      <li>
+        <strong>Does the benefit persist.</strong> Is the asset still
+        operational, or has it been abandoned.
+      </li>
+    </ol>
+    <p>
+      Reports that answer these three questions well tend to receive
+      the board's full attention. Reports that answer twenty other
+      questions and avoid these three tend to be filed and forgotten.
+    </p>
+
+    <h2>Common mistakes in CSR impact assessment</h2>
+    <ul>
+      <li>
+        Appointing the implementing agency's preferred evaluator (not
+        independent).
+      </li>
+      <li>
+        Not visiting the project site (impossible to form a credible
+        view remotely).
+      </li>
+      <li>
+        Overweighting activity metrics (workshops conducted) over
+        outcome metrics (people with reliable water).
+      </li>
+      <li>
+        Allowing the implementing agency to pre-review the draft report
+        and request edits (compromises independence).
+      </li>
+      <li>
+        Not including a sustainability analysis one year on (reduces
+        the report to a snapshot of the completion day).
+      </li>
+      <li>
+        Treating the report as a reputational asset rather than a
+        learning document (undermines the next CSR cycle).
+      </li>
+    </ul>
+
+    <h2>Integration with the annual report on CSR</h2>
+    <p>
+      Impact assessment findings must be included in the annual report
+      on CSR that forms part of the Board's Report. The disclosure
+      typically covers:
+    </p>
+    <ul>
+      <li>
+        A summary of the impact assessment for each project assessed.
+      </li>
+      <li>
+        Key findings, including per-beneficiary cost and sustainability.
+      </li>
+      <li>
+        Recommendations and how they will influence future CSR cycles.
+      </li>
+      <li>
+        A link to the full report on the company's website.
+      </li>
+    </ul>
+    <p>
+      The disclosure should match the quality of the underlying work.
+      A rigorous impact assessment deserves a rigorous summary.
+    </p>
+
+    <h2>Where Nikhaar Foundation fits</h2>
+    <p>
+      As a CSR-1 registered implementing agency, Nikhaar Foundation
+      welcomes impact assessment on any CSR project funded with us,
+      whether or not it is statutorily required. Our community water
+      pump installations in named Delhi settlements are structured
+      precisely to make impact assessment easy: named locations, named
+      beneficiary counts, operational assets, documented handover, and
+      a one-year follow up visit that confirms the pump is still
+      running.
+    </p>
+    <p>
+      If you are planning a CSR cycle that will require impact
+      assessment and want an implementing agency that produces easily
+      assessable work, start on our{" "}
+      <Link href="/csr">CSR partnerships page</Link> or write to
+      info@nikhaarfoundation.org. For the broader framework of
+      CSR compliance, our{" "}
+      <Link href="/blog/csr-rules-india-section-135-schedule-vii-csr-2-guide">
+        guide to CSR rules in India
+      </Link>{" "}
+      is the one-reference piece.
+    </p>
+  </>
+);
+
+const CsrImpactAssessmentFaqs = [
+  {
+    q: "When is CSR impact assessment mandatory in India?",
+    a: "CSR impact assessment is mandatory under Rule 8 of the CSR Rules only when two conditions are met simultaneously. The company must have an average CSR obligation of ten crore rupees or more in the three immediately preceding financial years, and the impact assessment applies only to CSR projects with outlays of one crore rupees or more that have been completed not less than one year before the assessment. Both conditions must be true.",
+  },
+  {
+    q: "Who can conduct a CSR impact assessment?",
+    a: "The CSR Rules require the impact assessment to be conducted by an independent agency with no conflict of interest with either the company or the implementing agency. Common choices include specialist development consulting firms, Big Four advisory arms, academic institutions, and recognised evaluation groups. The agency should be appointed by the company, not by the implementing agency, and should be able to describe the evaluation framework it will use.",
+  },
+  {
+    q: "How much can we spend on CSR impact assessment?",
+    a: "Expenditure on impact assessment can be booked as CSR spending subject to a cap. The expenditure cannot exceed two per cent of total CSR expenditure for the financial year or fifty lakh rupees, whichever is higher. A company spending twenty crore on CSR annually can therefore book up to fifty lakh in impact assessment spending.",
+  },
+  {
+    q: "What should a CSR impact assessment report cover?",
+    a: "A sound CSR impact assessment report covers project background, methodology, relevance to Schedule VII and local needs, effectiveness in achieving stated objectives, efficiency measured by per beneficiary cost, actual impact distinguished from activities and outputs, sustainability of the benefit after project end, and recommendations for the next CSR cycle. The report is placed before the board, disclosed on the company website, and summarised in the annual report on CSR.",
+  },
+  {
+    q: "How long does a CSR impact assessment take?",
+    a: "A board-ready CSR impact assessment typically takes eight to sixteen weeks end to end from issuance of the terms of reference to the final report. Allow longer for programmes covering multiple geographies or very large beneficiary samples. Build the timeline backwards from the next board meeting or annual report deadline.",
+  },
+  {
+    q: "How much does a CSR impact assessment cost in India?",
+    a: "Cost scales with scope and the agency selected. A small specialist firm typically charges between four and twelve lakh rupees for a focused evaluation. A mid-sized consulting firm charges ten to thirty lakh for a programme-level assessment. Big Four advisory arms charge from fifteen lakh to one crore and above. Academic institutions typically run five to twenty lakh with slower timelines and stronger methodological rigour.",
+  },
+  {
+    q: "Should we conduct impact assessment even if it is not mandatory?",
+    a: "Many companies below the statutory threshold now conduct voluntary impact assessment for material projects, both for internal learning and board reporting quality. A credible impact assessment improves the quality of future CSR cycles, satisfies investor and ESG rating queries, and provides a defensible answer to board questions on CSR effectiveness.",
+  },
+  {
+    q: "What should we put in the terms of reference for a CSR impact assessment?",
+    a: "A good ToR specifies the projects in scope with budget, duration, and implementing agency named; the specific evaluation questions the board wants answered; the preferred methodology; access requirements including beneficiary interviews and site visits; the deliverables; a timeline with milestones; an independence declaration and conflict of interest check; and a budget with payment linked to deliverables.",
+  },
+];
+
+const CsrTrends2027Article = () => (
+  <>
+    <p>
+      The structural logic of CSR in India has been settling into place
+      over the last several years. The Companies Act framework, the
+      Schedule VII clauses, CSR-1 registration, CSR-2 filing, and
+      impact assessment thresholds together form a mature compliance
+      regime. What is changing now is less the regulation and more the
+      practice: how companies plan, who they fund, how they measure,
+      and how they report. This guide covers the seven trends CSR
+      heads and Company Secretaries should plan for in the 2027-28
+      cycle.
+    </p>
+    <p>
+      It is written for leaders designing next year's CSR plan and
+      wondering what structural adjustments to make.
+    </p>
+
+    <h2>Trend one: BRSR and CSR converging into one reporting view</h2>
+    <p>
+      The Business Responsibility and Sustainability Report, mandatory
+      for the top one thousand listed companies, now reads as the
+      broader ESG wrapper around what used to be a standalone CSR
+      report. In the 2027-28 cycle, expect boards and investors to
+      expect your CSR disclosures to be legible inside the BRSR
+      framework. Three practical implications:
+    </p>
+    <ul>
+      <li>
+        CSR beneficiary and output metrics should map to BRSR Principle
+        8 disclosures on social impact.
+      </li>
+      <li>
+        Schedule VII attribution should be cross-referenced in BRSR
+        narrative sections to avoid double disclosure or gaps.
+      </li>
+      <li>
+        Impact assessment reports should be structured to be reusable
+        in BRSR responses on community well-being.
+      </li>
+    </ul>
+    <p>
+      The companies doing this well have one person owning both
+      disclosures, not separate teams writing them independently.
+    </p>
+
+    <h2>Trend two: sharper Schedule VII attribution at proposal stage</h2>
+    <p>
+      Auditors have been flagging loose Schedule VII attribution more
+      often in the last few cycles. Expect this to continue. The
+      practical implication for CSR heads is to insist on single-clause
+      attribution at the proposal and MoU stage, with secondary
+      benefits noted but not treated as formal attributions. Where a
+      project could legitimately be attributed to two clauses, pick
+      the stronger one and document the choice.
+    </p>
+    <p>
+      Implementing agencies that cannot work this way, or whose
+      marketing materials promote projects as fitting multiple clauses
+      interchangeably, should be a smaller share of your 2027-28
+      portfolio.
+    </p>
+
+    <h2>Trend three: smaller implementing agencies gaining share</h2>
+    <p>
+      For a decade, Indian CSR flowed heavily to a handful of large
+      implementing agencies. That is starting to change. CSR heads are
+      allocating a growing share of their obligation to smaller,
+      geography-focused implementing agencies for three reasons:
+    </p>
+    <ul>
+      <li>
+        <strong>Visibility.</strong> A small agency produces a visible,
+        attributable output. A large agency rolls your spend into
+        aggregated programme reports.
+      </li>
+      <li>
+        <strong>Per-rupee impact.</strong> Shorter chain of custody,
+        less overhead between money and ground.
+      </li>
+      <li>
+        <strong>Flexibility.</strong> Small agencies will scope to your
+        focus area. Large ones tend to offer standard programmes.
+      </li>
+    </ul>
+    <p>
+      Expect this trend to continue into 2027. The portfolio
+      composition shifting toward is roughly seventy per cent through
+      a trusted larger partner for bulk compliance, and thirty per cent
+      through a small agency for visible flagship work the board will
+      actually read about.
+    </p>
+
+    <h2>Trend four: beneficiary verification technology becoming
+    standard</h2>
+    <p>
+      Simple digital tools (georeferenced photographs with timestamps,
+      beneficiary acknowledgements over basic feature phone channels,
+      asset tagging) are becoming inexpensive enough that any
+      implementing agency should offer them. In 2027, expect CSR
+      committees to ask whether beneficiary verification is in place
+      and to flag it when it is not.
+    </p>
+    <p>
+      The MoU clauses to add in the 2027-28 cycle: geotagged
+      photographs of each installation or event, a timestamped
+      beneficiary acknowledgement sample, and a one-year follow-up
+      verification call on physical assets.
+    </p>
+
+    <h2>Trend five: multi-year commitments becoming the standard
+    structure</h2>
+    <p>
+      Annual CSR cycles create a treadmill that is bad for impact and
+      bad for implementing agencies. A growing share of CSR heads is
+      moving to two-year or three-year committed engagements with
+      implementing agencies they have piloted. The reporting still
+      happens annually but the planning horizon is longer.
+    </p>
+    <p>
+      In 2027, consider structuring a meaningful part of your CSR
+      obligation as three-year commitments. The implementing agency's
+      ability to commit to work two years ahead doubles or triples the
+      quality of the work they can deliver inside the current year.
+    </p>
+
+    <h2>Trend six: impact assessment professionalising</h2>
+    <p>
+      The CSR impact assessment market has matured. Specialist firms
+      with proper evaluation methodology are now available at
+      reasonable cost. Expect the quality of CSR impact assessment to
+      improve meaningfully in 2027, and expect boards and investors to
+      pay closer attention to it than they have historically.
+    </p>
+    <p>
+      Three practical implications for 2027 planning:
+    </p>
+    <ul>
+      <li>
+        Build impact assessment cost into the project budget from the
+        start, not as an afterthought.
+      </li>
+      <li>
+        Shortlist independent evaluators now, before you need them.
+      </li>
+      <li>
+        Pick projects that are structured to be easily assessable:
+        named locations, named beneficiaries, operational assets.
+      </li>
+    </ul>
+    <p>
+      Our{" "}
+      <Link href="/blog/csr-impact-assessment-india-complete-guide">
+        guide to CSR impact assessment
+      </Link>{" "}
+      covers the mechanics in detail.
+    </p>
+
+    <h2>Trend seven: employee volunteering becoming CSR adjacent</h2>
+    <p>
+      Employee volunteering is not CSR spending under Section 135, but
+      it is becoming structurally linked to the CSR programme at well
+      run companies. In 2027, expect more CSR teams to co-ordinate
+      employee volunteering days with implementing agencies as part of
+      the engagement, not separately.
+    </p>
+    <p>
+      For CSR heads, this means picking implementing agencies that can
+      host employee volunteering days without disrupting delivery.
+      Small, local implementing agencies tend to do this well. Large
+      ones tend to treat it as a separate function.
+    </p>
+
+    <h2>What this means for your 2027-28 CSR plan</h2>
+    <p>
+      Putting the seven trends together, a well-structured 2027-28 CSR
+      plan looks something like this:
+    </p>
+    <ol>
+      <li>
+        A primary implementing agency for the bulk of the obligation,
+        with clear BRSR integration.
+      </li>
+      <li>
+        A secondary small implementing agency for a visible flagship
+        project in a named geography.
+      </li>
+      <li>
+        Single-clause Schedule VII attribution for each project with
+        documented secondary benefits.
+      </li>
+      <li>
+        Multi-year commitments where you have piloted successfully.
+      </li>
+      <li>
+        Beneficiary verification clauses built into every MoU.
+      </li>
+      <li>
+        Impact assessment budget built in from the start, with
+        shortlisted independent evaluators ready.
+      </li>
+      <li>
+        Employee volunteering days co-ordinated with your
+        implementing agencies, not run separately.
+      </li>
+    </ol>
+
+    <h2>How to think about Delhi focused CSR work in 2027</h2>
+    <p>
+      For companies headquartered or operationally present in Delhi,
+      the case for a Delhi focused flagship CSR project in 2027 is
+      strong. The water, air, and children's welfare problems in the
+      city's underserved settlements are visible, well understood, and
+      responsive to bounded physical interventions. The reporting is
+      easy and the board will engage with it.
+    </p>
+    <p>
+      Nikhaar Foundation is a CSR-1 registered implementing agency
+      (CSR00107287) focused on exactly this work in Delhi. If a Delhi
+      focused flagship project fits your 2027-28 plan, we are a
+      candidate implementing agency. Start on our{" "}
+      <Link href="/csr">CSR partnerships page</Link> and, if you would
+      like to run a short diligence exercise, our{" "}
+      <Link href="/blog/how-to-pick-csr-implementing-agency-india">
+        guide to picking implementing agencies
+      </Link>{" "}
+      is the framework we are happy to be assessed against.
+    </p>
+  </>
+);
+
+const CsrTrends2027Faqs = [
+  {
+    q: "What are the main CSR trends for Indian companies in 2027?",
+    a: "The main CSR trends shaping the 2027-28 cycle are BRSR and CSR disclosure converging into one reporting view, sharper single-clause Schedule VII attribution at proposal stage, smaller implementing agencies gaining a share of CSR spending alongside larger partners, beneficiary verification technology becoming standard, multi-year committed engagements replacing annual cycles, CSR impact assessment professionalising, and employee volunteering becoming structurally linked to CSR programmes.",
+  },
+  {
+    q: "How should BRSR affect our CSR planning for 2027?",
+    a: "The Business Responsibility and Sustainability Report now reads as the broader ESG wrapper around CSR. CSR beneficiary and output metrics should map to BRSR Principle 8 disclosures on social impact, Schedule VII attribution should be cross-referenced in BRSR narrative sections, and impact assessment reports should be structured for reuse in BRSR community well-being responses. The best practice is to have one person owning both disclosures rather than separate teams writing them independently.",
+  },
+  {
+    q: "Should we move to multi-year CSR commitments in 2027?",
+    a: "A meaningful part of a well-structured 2027-28 CSR obligation is now typically committed on a two or three year horizon with implementing agencies that have been piloted successfully. Annual reporting continues but the planning horizon lengthens. An implementing agency able to commit to work two years ahead delivers materially better quality inside the current year.",
+  },
+  {
+    q: "How is Schedule VII attribution changing in CSR practice?",
+    a: "Auditors have been flagging loose Schedule VII attribution more often in recent cycles. In 2027, expect single-clause attribution at proposal and MoU stage to be the norm, with secondary benefits noted but not treated as formal attributions. Projects that could legitimately map to two clauses should pick the stronger one and document the choice. Implementing agencies promoting projects as fitting multiple clauses interchangeably should be a smaller share of your 2027-28 portfolio.",
+  },
+  {
+    q: "What role will smaller implementing agencies play in CSR in 2027?",
+    a: "Smaller, geography-focused implementing agencies are gaining a share of CSR spending in India for three reasons: visibility of the specific contribution, higher per rupee impact from a shorter chain of custody, and flexibility to scope to the company's focus area. The common 2027 portfolio composition pairs a trusted larger partner for bulk compliance with a small implementing agency for a visible flagship project.",
+  },
+  {
+    q: "How should employee volunteering fit into CSR in 2027?",
+    a: "Employee volunteering is not CSR spending under Section 135, but it is becoming structurally linked to the CSR programme at well run companies. In 2027, expect employee volunteering days to be co-ordinated with implementing agencies as part of the engagement rather than run as a separate activity. Small, local implementing agencies tend to host volunteering days without disrupting delivery.",
+  },
+  {
+    q: "What should we include in a CSR MoU in 2027 that we did not include before?",
+    a: "In the 2027-28 cycle, add clauses for beneficiary verification (geotagged photographs of each installation or event, a timestamped beneficiary acknowledgement sample, and a one-year follow-up verification call on physical assets), BRSR mapped reporting fields, employee volunteering coordination terms if applicable, and a clearly defined independent impact assessment pathway where the project is material enough to warrant one.",
+  },
+];
+
 export const posts: Post[] = [
   {
     slug: "how-to-donate-to-an-ngo-in-india-80g-tax-deduction",
@@ -2274,6 +3572,143 @@ export const posts: Post[] = [
     ],
     faqs: GiveBetterFaqs,
     body: <GiveBetterArticle />,
+  },
+  {
+    slug: "how-to-pick-csr-implementing-agency-india",
+    title:
+      "How to pick a CSR implementing agency in India: a procurement guide for CSR heads",
+    description:
+      "A procurement framework for CSR heads and Company Secretaries on how to select, run due diligence on, and pilot a CSR implementing agency under Section 135 of the Companies Act, 2013. Covers shortlisting, documentation, large versus small agency tradeoffs, MoU structure, pilot design, and common mistakes.",
+    excerpt:
+      "The three stage process (shortlist, due diligence, pilot), the full documentation pack to request, the honest tradeoff between large and small implementing agencies, and the clauses that make a defensible CSR MoU.",
+    datePublished: "2026-11-02",
+    dateModified: "2026-11-02",
+    readingTime: "14 min read",
+    category: "CSR partnerships",
+    keywords: [
+      "CSR implementing agency India",
+      "how to select CSR NGO partner",
+      "CSR implementing partner selection",
+      "CSR vendor selection India",
+      "best CSR implementing agency India",
+      "CSR partner due diligence India",
+      "CSR MoU format India",
+      "CSR partner shortlist",
+      "small vs large CSR implementing agency",
+      "CSR pilot project India",
+    ],
+    keyTakeaways: [
+      "Run a three stage selection process: shortlist, due diligence, pilot. Compressing the middle stage is the most common procurement mistake.",
+      "Request the full documentation pack upfront: CSR-1, 12A, 80G with URN, PAN, audited financials, programme reports, founder background, past donor contacts, and a costed proposal.",
+      "Large and small implementing agencies offer different tradeoffs. A balanced portfolio often uses both, with a large agency for bulk and a small agency for a visible flagship.",
+      "A good MoU specifies named scope, costed line items, tranche-based disbursement, utilisation reporting fields for CSR-2, audit rights, and site access.",
+      "Pilot inside one financial quarter so the first utilisation report is on the board's desk before the next CSR committee meeting.",
+    ],
+    faqs: ImplementingAgencyFaqs,
+    body: <ImplementingAgencyArticle />,
+  },
+  {
+    slug: "water-conservation-csr-projects-india",
+    title:
+      "Water conservation CSR projects in India: Schedule VII fit, project types, costs, and metrics",
+    description:
+      "A guide for CSR heads on water conservation projects under Section 135 of the Companies Act, 2013. Covers Schedule VII (i) and (iv) attribution, project types (community pumps, rainwater harvesting, borewell refurbishment, school drinking water), typical cost bands, credible impact metrics, and portfolio sizing.",
+    excerpt:
+      "The strongest focus area in Indian CSR: unambiguous Schedule VII attribution, bounded unit costs, visible outcomes, durable benefit. Here is how to plan a water conservation CSR portfolio.",
+    datePublished: "2026-11-02",
+    dateModified: "2026-11-02",
+    readingTime: "11 min read",
+    category: "CSR partnerships",
+    keywords: [
+      "water conservation CSR projects India",
+      "water CSR projects",
+      "safe drinking water CSR India",
+      "Schedule VII water activities",
+      "CSR project water conservation",
+      "community water pump CSR",
+      "rainwater harvesting CSR",
+      "water CSR partner India",
+      "water CSR Delhi",
+      "CSR water budget India",
+    ],
+    keyTakeaways: [
+      "Water conservation projects map unambiguously to Schedule VII (i) safe drinking water and (iv) environmental sustainability.",
+      "Main project types: community water pumps, rainwater harvesting, borewell refurbishment, school drinking water systems, awareness campaigns, water body restoration.",
+      "Credible metrics are people served by named assets, litres delivered per day, and operational uptime at one year. Avoid impression based and extrapolated metrics.",
+      "Water pairs cleanly with education (Schedule VII ii) and women's welfare (Schedule VII iii) through legitimate secondary attribution.",
+      "A single community water pump installation in a Delhi settlement typically sits in the low single lakh range and serves between 500 and 3,000 people.",
+    ],
+    faqs: WaterCsrProjectsFaqs,
+    body: <WaterCsrProjectsArticle />,
+  },
+  {
+    slug: "csr-impact-assessment-india-complete-guide",
+    title:
+      "CSR impact assessment in India: a complete guide to when, who, and what to put in the report",
+    description:
+      "A complete guide to CSR impact assessment under Rule 8 of the Companies (CSR Policy) Rules, 2014. Covers mandatory thresholds, allowed expenditure, independent agency selection, report structure, terms of reference, timelines, cost bands, and integration with the annual report on CSR.",
+    excerpt:
+      "When CSR impact assessment is mandatory, who can conduct it, how much it costs, what the report must contain, and how to scope the ToR so the board gets a document worth reading.",
+    datePublished: "2026-11-02",
+    dateModified: "2026-11-02",
+    readingTime: "13 min read",
+    category: "CSR partnerships",
+    keywords: [
+      "CSR impact assessment India",
+      "impact assessment CSR rules",
+      "CSR impact assessment agency",
+      "impact assessment report CSR",
+      "CSR assessment compliance",
+      "Rule 8 CSR Policy Rules",
+      "CSR impact assessment cost",
+      "CSR impact assessment ToR",
+      "CSR impact assessment Big Four",
+      "voluntary CSR impact assessment",
+    ],
+    keyTakeaways: [
+      "Impact assessment is mandatory only when both thresholds are met: company level CSR obligation of 10 crore or more averaged over three years, and project level outlay of 1 crore or more.",
+      "Impact assessment expenditure can be booked as CSR spending up to 2 per cent of annual CSR expenditure or 50 lakh, whichever is higher.",
+      "The agency must be independent of the company and the implementing agency, and should be able to describe its evaluation framework.",
+      "A sound report covers relevance, effectiveness, efficiency, actual impact, sustainability, and recommendations. The board cares most about delivery, per beneficiary cost, and persistence of benefit.",
+      "A board-ready impact assessment typically takes 8 to 16 weeks and costs 4 lakh (small specialist firm) to over 1 crore (Big Four) depending on scope.",
+    ],
+    faqs: CsrImpactAssessmentFaqs,
+    body: <CsrImpactAssessmentArticle />,
+  },
+  {
+    slug: "csr-trends-india-2027-company-secretary",
+    title:
+      "CSR trends in India for 2027: what Company Secretaries and CSR heads should plan for",
+    description:
+      "The seven CSR trends shaping the 2027-28 cycle for Indian listed companies, from BRSR and CSR disclosure convergence to the rise of smaller implementing agencies and beneficiary verification standards. Written for CSR heads and Company Secretaries building the next year's plan.",
+    excerpt:
+      "BRSR convergence, sharper Schedule VII attribution, smaller implementing agencies gaining share, beneficiary verification technology, multi-year commitments, impact assessment professionalising, employee volunteering integrating with CSR.",
+    datePublished: "2026-11-02",
+    dateModified: "2026-11-02",
+    readingTime: "10 min read",
+    category: "CSR partnerships",
+    keywords: [
+      "CSR trends India 2027",
+      "CSR 2027 India",
+      "CSR planning 2027",
+      "CSR amendments 2026",
+      "BRSR CSR integration",
+      "future of CSR India",
+      "CSR Company Secretary 2027",
+      "Section 135 trends 2027",
+      "multi-year CSR commitments",
+      "employee volunteering CSR India",
+    ],
+    keyTakeaways: [
+      "BRSR and CSR disclosure are converging. One person should own both, with CSR beneficiary metrics mapping to BRSR Principle 8.",
+      "Schedule VII attribution is tightening. Pick a single clause per project and document secondary benefits separately.",
+      "Smaller implementing agencies are gaining a share of CSR spending alongside large partners. A 70/30 portfolio split is a common new structure.",
+      "Beneficiary verification clauses (geotagged photographs, timestamped acknowledgements, one-year follow-up calls) are becoming standard in MoUs.",
+      "Multi-year committed engagements are replacing annual cycles for the implementing agencies you have piloted successfully.",
+      "Impact assessment is professionalising. Build the cost in from the start, shortlist independent evaluators now, and pick easily assessable projects.",
+    ],
+    faqs: CsrTrends2027Faqs,
+    body: <CsrTrends2027Article />,
   },
 ];
 
