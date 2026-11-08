@@ -51,10 +51,18 @@ export function SiteHeader() {
               );
             })}
             <Link
-              href="/support"
-              className="rounded-full bg-teal px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-teal-deep"
+              href="/support#donate"
+              className="inline-flex items-center gap-2 rounded-full bg-teal px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-teal-deep"
             >
-              Support our work
+              <svg viewBox="0 0 16 16" aria-hidden="true" className="h-3.5 w-3.5" fill="none">
+                <path
+                  d="M8 13.5s-5-3-5-7a3 3 0 0 1 5-2.2A3 3 0 0 1 13 6.5c0 4-5 7-5 7Z"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinejoin="round"
+                />
+              </svg>
+              Donate
             </Link>
           </nav>
 
@@ -95,10 +103,10 @@ export function SiteHeader() {
                 </Link>
               ))}
               <Link
-                href="/support"
+                href="/support#donate"
                 className="mt-6 rounded-full bg-teal px-6 py-3.5 text-center text-sm font-semibold text-white"
               >
-                Support our work
+                Donate
               </Link>
             </nav>
           </Container>

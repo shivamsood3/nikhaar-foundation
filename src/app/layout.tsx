@@ -35,7 +35,9 @@ export const metadata: Metadata = {
   category: "Nonprofit",
   alternates: {
     canonical: site.url,
-    types: { "application/rss+xml": `${site.url}/sitemap.xml` },
+    types: {
+      "application/atom+xml": `${site.url}/blog/feed.xml`,
+    },
   },
   openGraph: {
     title: defaultTitle,

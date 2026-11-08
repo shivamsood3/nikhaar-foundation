@@ -5,12 +5,18 @@ import { breadcrumbLd, canonical, JsonLd, pageMeta } from "@/lib/seo";
 import { site } from "@/lib/site";
 import { posts } from "@/content/blog/posts";
 
-export const metadata: Metadata = pageMeta({
-  title: "Notes and guides on giving in India | Nikhaar Foundation blog",
-  description:
-    "Guides for individual donors and CSR heads on how to give in India: 80G tax deductions, CSR-1 registration under Section 135, Schedule VII activities, and case notes from our water, clean air, and children's welfare programmes in Delhi.",
-  path: "/blog",
-});
+export const metadata: Metadata = {
+  ...pageMeta({
+    title: "Notes and guides on giving in India | Nikhaar Foundation blog",
+    description:
+      "Guides for individual donors and CSR heads on how to give in India: 80G tax deductions, CSR-1 registration under Section 135, Schedule VII activities, and case notes from our water, clean air, and children's welfare programmes in Delhi.",
+    path: "/blog",
+  }),
+  alternates: {
+    canonical: `${site.url}/blog`,
+    types: { "application/atom+xml": `${site.url}/blog/feed.xml` },
+  },
+};
 
 const blogLd = {
   "@context": "https://schema.org",

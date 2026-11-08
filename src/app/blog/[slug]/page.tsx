@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container, Eyebrow, PageHero } from "@/components/ui";
 import { Prose } from "@/components/prose";
+import { ShareBar } from "@/components/share-bar";
+import { StickyDonateCTA } from "@/components/sticky-donate-cta";
 import {
   articleLd,
   breadcrumbLd,
@@ -51,10 +53,21 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
 
   const related = posts.filter((p) => p.slug !== slug).slice(0, 2);
 
+  const fmt = (iso: string) =>
+    new Date(iso).toLocaleDateString("en-IN", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+  const isUpdated = post.dateModified !== post.datePublished;
+  const dateLabel = isUpdated
+    ? `Updated ${fmt(post.dateModified)}`
+    : fmt(post.datePublished);
+
   return (
     <>
       <PageHero
-        eyebrow={`${post.category} · ${new Date(post.datePublished).toLocaleDateString("en-IN", { year: "numeric", month: "long", day: "numeric" })} · ${post.readingTime}`}
+        eyebrow={`${post.category} · ${dateLabel} · ${post.readingTime}`}
         title={post.title}
         lead={post.excerpt}
       />
@@ -80,6 +93,8 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
             ) : null}
 
             <Prose>{post.body}</Prose>
+
+            <ShareBar title={post.title} path={`/blog/${slug}`} />
 
             {post.faqs?.length ? (
               <section
@@ -176,6 +191,8 @@ export default async function BlogPostPage(props: PageProps<"/blog/[slug]">) {
           { name: post.title, path: `/blog/${slug}` },
         ])}
       />
+
+      <StickyDonateCTA />
     </>
   );
 }
