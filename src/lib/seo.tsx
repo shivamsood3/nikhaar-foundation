@@ -65,7 +65,10 @@ export function pageMeta({ title, description, path, ogImage }: PageMetaInput) {
   return {
     title,
     description,
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      types: { "application/atom+xml": `${site.url}/blog/feed.xml` },
+    },
     openGraph: {
       title,
       description,
